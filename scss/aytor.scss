@@ -1,0 +1,172 @@
+        // Font Family 
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Roboto:wght@400;700&display=swap');  
+ 
+ 
+//  variables 
+
+            // fonts 
+$primaryFont: 'Josefin Sans', sans-serif;
+$secondaryFont:'Roboto', sans-serif;
+            // colors 
+ $primaryColor:#FF6F61;
+ $textColor:#11161E;  
+
+        // COMMON CSS
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,ol,ul,p,span{
+    margin: 0;
+    padding: 0;
+}
+        // COMMON CSS END
+
+         // nav starts here 
+nav{
+    .menulist{
+         li a{
+            font-family:$primaryFont ;
+            color: $textColor;
+            font-size: 16px;
+            font-weight: 400;
+            margin: 37px 14px ;
+            display: block;
+            transition: 0.3s ease-in;
+            &:hover{
+                color:$primaryColor ;
+            }
+        }
+    }
+    .navicons{
+        ul li{
+            display: inline-block;
+            a,span{
+                margin:38px 7px ;
+                color: #151A32;
+                font-size: 22px;
+                position: relative;
+                span{
+                    height: 15px;
+                    width: 15px;
+                    border-radius: 50%;
+                    background-color: $primaryColor;
+                    line-height: 15px;
+                    font-size: 14px;
+                    display: inline-block;
+                    position: absolute;
+                    text-align: center;
+                    color: white;
+                    top:-39px ;
+                    left:4px ;
+                }
+
+            }
+        }
+    }
+}
+        // sm nav starts here 
+.offcanvas{
+    .sm-nav-list{
+
+        margin-left: 20px;
+        li{
+            a{
+              display: block;
+              padding: 16px;
+              color: $textColor;
+                
+            }
+        }
+    }
+}
+        // sm nav ends here 
+        // nav ends here 
+
+
+    // home page starts here 
+
+            // banner 
+#banner{
+    .banner-slide{
+        height: 700px;
+        background-position: center;
+        background-size: cover;
+        .banner-cnt {
+            color: #1D1D1D;
+            font-family: Josefin Sans;
+            h5{
+                font-size: 18px;
+                font-weight: 600;
+                margin-bottom: 14px;
+            }
+            h2{
+                font-size: clamp(20px,12vw,64px);
+                font-weight: 700;
+                margin-bottom: 16px;
+                transition-delay: 0.2s;
+            }
+            p{
+                font-size: 16px;
+                font-weight: 400;
+                margin-bottom: 29px;
+                transition-delay: 0.4s;
+
+            }
+            a{
+                padding: 13px 37px;
+                background-color: $primaryColor;
+                color:#FFF ;
+                font-size: 18px;
+                font-weight: 600;
+                display: inline-block;
+                transition-delay: 0.5s;
+                
+            }
+            & >*{
+                transform: translateY(100px);
+                opacity: 0;
+                transition: 0.5s ease-in;
+            }
+        }
+
+        &.slick-active .banner-cnt > *{
+            transform: translateY(0);
+            opacity: 1;
+             
+        }
+    }
+    .slick-dots{
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        margin-top: 30px;
+        transform: translate(-50%);
+        li{
+            display: inline-block;
+            button{
+                width:11px ;
+                height:8px ;
+                border-radius: 25%!important;;
+                border: none;
+                color: transparent;
+                margin-left:10px ;
+                background-color: white;
+                transition: 0.3 ease;
+            }
+            &.slick-active button{
+                width: 25px;
+                background-color: $primaryColor;
+            }
+
+        }
+    }
+}
+// home page ends here 

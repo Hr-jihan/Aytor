@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- css link start -->
+    <link rel="stylesheet" href="./css/tingle.min.css">
+    <link rel="stylesheet" href="./css/hamburgers.min.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/aytor.min.css">
+        <!-- css link end -->
+    <title>Document</title>
+</head>
+<body>
+        <!-- nav starts here  -->
+    <nav class="navbar navbar-expand-lg d-none d-lg-block ">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./images&others/MainLogo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0 menulist">
+             
+              <li class="nav-item">
+                <a class="nav-link" href="#" >Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Shopes
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Features
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Blogs
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <div class="navicons">
+                <ul>
+                  <li> <span><iconify-icon class="search-icon" icon="iconamoon:search-thin"></iconify-icon></span></li>
+                  <li><a href="#"><iconify-icon icon="clarity:avatar-line"></iconify-icon></a></li>
+                  <li><a href="#"><iconify-icon icon="ph:heart-light"></iconify-icon></a></li>
+                  <li><a href="#"><iconify-icon icon="teenyicons:bag-outline"></iconify-icon> <span>0</span></a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+        <!-- sm nav starts  -->
+    <nav class="navbar navbar-sm d-lg-none" >
+      <div class="container">
+        <div class="row w-100 align-items-center">
+          <div class="col-3 ">
+            <button class="hamburger hamburger--squeeze menu " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
+          </div>
+          <div class="col-6 text-end"> <img src="./images&others/MainLogo.png" alt=""></div>
+          <div class="col-3 text-end"> 
+            <div class="navicons">
+              <ul>
+                <li><a href="#"><iconify-icon icon="teenyicons:bag-outline"></iconify-icon> <span>0</span></a></li>
+              </ul>
+            </div>
+          </div>
+      </div>
+        </div>
+      </div>
+    </nav>
+
+          
+        <!-- offcanvas slide  -->
+    
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <img src="./images&others/MainLogo.png" alt="">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+
+        
+          <ul class="sm-nav-list">
+            <li><a href="#">Home</a></li>
+            <li>
+              <a href="#"class=" dropdown-toggle"  data-bs-toggle="dropdown" > Shop</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#"class=" dropdown-toggle"  data-bs-toggle="dropdown" > Pages</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#"class=" dropdown-toggle"  data-bs-toggle="dropdown" > Features</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#"class=" dropdown-toggle"  data-bs-toggle="dropdown" > blogs</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+
+
+
+          </ul>
+        
+      </div>
+    </div>
+
+
+        <!-- nav ends here  -->
+
+
+        <!-- Home page starts here  -->
+        <!-- banner starts -->
+<section id="banner">
+  <div class="banner-slide" style="background-image: url(./images&others/home-Banner-img1.png);">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="banner-cnt col-lg-5 ">
+            <h5>Mega Sale</h5>
+            <h2>Up To 35% Off</h2>
+            <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+            <a href="#"> Shop Now <span><i class="fa-solid fa-arrow-right-long"></i><span></a>
+          </div>
+        </div>
+    </div>
+
+  </div>
+  <div class="banner-slide" style="background-image: url(./images&others/home-banner-img2.jpg);">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="banner-cnt col-lg-5 ">
+            <h5>Mega Sale</h5>
+            <h2>Up To 35% Off</h2>
+            <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+            <a href="#"> Shop Now <span><i class="fa-solid fa-arrow-right-long"></i><span></a>
+          </div>
+        </div>
+    </div>
+
+  </div>
+  <div class="banner-slide" style="background-image: url(./images&others/home-banner-img3.jpg);">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="banner-cnt col-lg-5 ">
+            <h5>Mega Sale</h5>
+            <h2>Up To 35% Off</h2>
+            <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+            <a href="#"> Shop Now <span><i class="fa-solid fa-arrow-right-long"></i><span></a>
+          </div>
+        </div>
+    </div>
+
+  </div>
+  <div class="banner-slide" style="background-image: url(./images&others/home-banner-img4.jpg);">
+    <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="banner-cnt col-lg-5 ">
+            <h5>Mega Sale</h5>
+            <h2>Up To 35% Off</h2>
+            <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+            <a href="#"> Shop Now <span><i class="fa-solid fa-arrow-right-long"></i><span></a>
+          </div>
+        </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+        <!-- Home page ends here  -->
+
+
+
+
+
+
+
+    
+
+        <!-- js link start  -->
+
+<script src="./js/code.jquery.com_jquery-3.7.0.min.js"></script>
+<script src="./js/code.iconify.design_iconify-icon_1.0.7_iconify-icon.min.js"></script>
+<script src="./js/tingle.min.js"></script>
+<script src="./js/slick.min.js"></script>
+<script src="https://kit.fontawesome.com/4b8f754f30.js" crossorigin="anonymous"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/aytor.js"></script>
+        <!-- js link end  -->
+</body>
+</html>
