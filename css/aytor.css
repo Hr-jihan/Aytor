@@ -9,11 +9,21 @@ a {
   text-decoration: none;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 
-h1, h2, h3, h4, h5, h6, ol, ul, p, span {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+p,
+span {
   margin: 0;
   padding: 0;
 }
@@ -33,13 +43,15 @@ nav .menulist li a:hover {
 nav .navicons ul li {
   display: inline-block;
 }
-nav .navicons ul li a, nav .navicons ul li span {
+nav .navicons ul li a,
+nav .navicons ul li span {
   margin: 38px 7px;
   color: #151A32;
   font-size: 22px;
   position: relative;
 }
-nav .navicons ul li a span, nav .navicons ul li span span {
+nav .navicons ul li a span,
+nav .navicons ul li span span {
   height: 15px;
   width: 15px;
   border-radius: 50%;
@@ -54,6 +66,38 @@ nav .navicons ul li a span, nav .navicons ul li span span {
   left: 4px;
 }
 
+.sm-search .form {
+  position: relative;
+}
+.sm-search .form .fa-search {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #9ca3af;
+}
+.sm-search .form span {
+  position: absolute;
+  right: 17px;
+  top: 13px;
+  padding: 2px;
+  border-left: 1px solid #d1d5db;
+}
+.sm-search .left-pan {
+  padding-left: 7px;
+}
+.sm-search .left-pan i {
+  padding-left: 10px;
+}
+.sm-search .form-input {
+  height: 55px;
+  text-indent: 33px;
+  border-radius: 10px;
+}
+.sm-search .form-input:focus {
+  box-shadow: none;
+  border: none;
+}
+
 .offcanvas .sm-nav-list {
   margin-left: 20px;
 }
@@ -61,6 +105,14 @@ nav .navicons ul li a span, nav .navicons ul li span span {
   display: block;
   padding: 16px;
   color: #11161E;
+}
+
+.sm-nav-menu-icon {
+  outline: none;
+  font-size: 25px;
+  border: none;
+  background-color: transparent;
+  padding-left: 10px;
 }
 
 #banner .banner-slide {
@@ -113,6 +165,7 @@ nav .navicons ul li a span, nav .navicons ul li span span {
   left: 50%;
   margin-top: 30px;
   transform: translate(-50%);
+  opacity: 1;
 }
 #banner .slick-dots li {
   display: inline-block;
@@ -130,4 +183,513 @@ nav .navicons ul li a span, nav .navicons ul li span span {
 #banner .slick-dots li.slick-active button {
   width: 25px;
   background-color: #FF6F61;
+}
+
+#product {
+  margin-top: 85px;
+  margin-bottom: 85px;
+}
+#product .beauty-perfume .beauty {
+  margin-bottom: 35px;
+  position: relative;
+}
+#product .beauty-perfume .beauty:hover .beauty-overlay {
+  transform: scale(1);
+  opacity: 0.400000006;
+  visibility: visible;
+}
+#product .beauty-perfume .beauty .beauty-overlay {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  height: 90%;
+  width: 90%;
+  background-color: #11161E;
+  opacity: 0.400000006;
+  transform: scale(0.1);
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.4s;
+}
+#product .beauty-perfume .beauty .beauty-overlay h4 {
+  font-family: Josefin Sans;
+  font-size: clamp(14px, 10vw, 27px);
+  font-weight: 700;
+  color: #FFF;
+  line-height: 40px;
+  opacity: 1;
+}
+#product .beauty-perfume .beauty .beauty-overlay a {
+  color: #FFF;
+  font-family: Josefin Sans;
+  font-size: clamp(8px, 10vw, 14px);
+  font-weight: 600;
+  line-height: 28px;
+  opacity: 1;
+}
+#product .beauty-perfume .perfume {
+  position: relative;
+}
+#product .beauty-perfume .perfume:hover .perfume-overlay {
+  transform: scale(1);
+  opacity: 0.400000006;
+  visibility: visible;
+}
+#product .beauty-perfume .perfume .perfume-overlay {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  height: 90%;
+  width: 90%;
+  background-color: #11161E;
+  opacity: 0.400000006;
+  transform: scale(0.1);
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.4s;
+}
+#product .beauty-perfume .perfume .perfume-overlay h4 {
+  font-family: Josefin Sans;
+  font-size: clamp(14px, 12vw, 27px);
+  font-weight: 700;
+  color: #FFF;
+  line-height: 40px;
+  opacity: 1;
+}
+#product .beauty-perfume .perfume .perfume-overlay a {
+  color: #FFF;
+  font-family: Josefin Sans;
+  font-size: clamp(8px, 12vw, 14px);
+  font-weight: 600;
+  line-height: 28px;
+  opacity: 1;
+}
+#product .soap {
+  position: relative;
+}
+#product .soap:hover .soap-overlay {
+  transform: scale(1);
+  opacity: 0.400000006;
+  visibility: visible;
+}
+#product .soap .soap-overlay {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  height: 90%;
+  width: 90%;
+  background-color: #11161E;
+  opacity: 0.400000006;
+  transform: scale(0.1);
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.4s;
+}
+#product .soap .soap-overlay h4 {
+  font-family: Josefin Sans;
+  font-size: clamp(18px, 12vw, 32px);
+  font-weight: 700;
+  color: #FFF;
+  line-height: 40px;
+  opacity: 1;
+}
+#product .soap .soap-overlay a {
+  color: #FFF;
+  font-family: Josefin Sans;
+  font-size: clamp(10px, 12vw, 14px);
+  font-weight: 600;
+  line-height: 28px;
+  opacity: 1;
+}
+
+#new-product .arrival-head {
+  color: var(--text-color, #11161E);
+  text-align: center;
+  font-family: Josefin Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#new-product .arrows .left-arrow {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  height: 50px;
+  width: 30px;
+  background-color: #151A32;
+  opacity: 0.5;
+  color: #fff;
+  line-height: 50px;
+  font-size: 20px;
+  text-align: center;
+  transform: translateX(97%);
+}
+#new-product .arrows .right-arrow {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  height: 50px;
+  width: 30px;
+  background-color: #151A32;
+  opacity: 0.5;
+  color: #fff;
+  line-height: 50px;
+  font-size: 20px;
+  text-align: center;
+  transform: translateX(-97%);
+}
+#new-product .lotion {
+  padding: 0 15px;
+}
+#new-product .lotion .lotion-img {
+  position: relative;
+}
+#new-product .lotion .lotion-img .sale {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  background-color: #FF6F61;
+  padding: 5px 8px;
+  color: #FFF;
+  transform: rotate(-90deg);
+  border-radius: 13px 0 0 13px;
+}
+#new-product .lotion .lotion-img .hvr-icon {
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+}
+#new-product .lotion .lotion-img .hvr-icon ul li a {
+  width: 36px;
+  height: 36px;
+  background-color: #FFF;
+  color: #151A32;
+  display: inline-block;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  transition: 0.3s;
+  transform: translateX(-60px);
+  opacity: 0;
+  visibility: hidden;
+}
+#new-product .lotion .lotion-img .hvr-icon ul li a:hover {
+  background-color: #FF6F61;
+  color: #fff;
+}
+#new-product .lotion .lotion-img:hover .hvr-icon a {
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+  transition-delay: calc(0.3s * var(--num));
+}
+#new-product .lotion .lotion-img:hover img {
+  filter: brightness(0.8) contrast(1.2);
+}
+#new-product .lotion .lotion-info {
+  text-align: center;
+  padding: 24px 0;
+}
+#new-product .lotion .lotion-info p {
+  font-family: Josefin Sans;
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 5px;
+}
+#new-product .lotion .lotion-info h5 {
+  font-family: Josefin Sans;
+  font-size: 20px;
+  margin-bottom: 11px;
+  font-weight: 600;
+}
+#new-product .lotion .lotion-info span {
+  color: #FF6F61;
+  font-size: 16px;
+}
+
+#get-discount {
+  margin-bottom: 100px;
+  margin-top: 80px;
+}
+#get-discount .discount-banner {
+  height: 524px;
+  background-size: cover;
+  background-position: center;
+}
+#get-discount .discount-banner .discount-info h2 {
+  color: #FFF;
+  font-family: Josefin Sans;
+  font-size: 36px;
+  font-weight: 700;
+}
+#get-discount .discount-banner .discount-info p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #fff;
+}
+#get-discount .discount-banner .discount-info a {
+  padding: 13px 37px;
+  border: 1px solid #fff;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 600;
+  display: inline-block;
+  transition-delay: 0.5s;
+  margin-top: 30px;
+}
+
+#best-sellar-product .container h2 {
+  font-family: Josefin Sans;
+  font-size: 36px;
+  color: #11161E;
+  font-weight: 700;
+  line-height: 46px;
+  text-align: center;
+  margin-bottom: 36px;
+}
+#best-sellar-product .container .bext-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#best-sellar-product .container .bext-btn a {
+  padding: 13px 37px;
+  background-color: #FF6F61;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  display: inline-block;
+  transition-delay: 0.5s;
+  margin-top: 30px;
+  text-align: center;
+}
+#best-sellar-product .container .lotion {
+  padding: 0 15px;
+}
+#best-sellar-product .container .lotion .lotion-img {
+  position: relative;
+}
+#best-sellar-product .container .lotion .lotion-img .sale {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  background-color: #FF6F61;
+  padding: 5px 8px;
+  color: #FFF;
+  transform: rotate(-90deg);
+  border-radius: 13px 0 0 13px;
+}
+#best-sellar-product .container .lotion .lotion-img .hvr-icon {
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+}
+#best-sellar-product .container .lotion .lotion-img .hvr-icon ul li a {
+  width: 36px;
+  height: 36px;
+  background-color: #FFF;
+  color: #151A32;
+  display: inline-block;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  transition: 0.3s;
+  transform: translateX(-60px);
+  opacity: 0;
+  visibility: hidden;
+}
+#best-sellar-product .container .lotion .lotion-img .hvr-icon ul li a:hover {
+  background-color: #FF6F61;
+  color: #fff;
+}
+#best-sellar-product .container .lotion .lotion-img:hover .hvr-icon a {
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+  transition-delay: calc(0.3s * var(--num));
+}
+#best-sellar-product .container .lotion .lotion-img:hover img {
+  filter: brightness(0.8) contrast(1.2);
+}
+#best-sellar-product .container .lotion .lotion-info {
+  text-align: center;
+  padding: 24px 0;
+}
+#best-sellar-product .container .lotion .lotion-info p {
+  font-family: Josefin Sans;
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 5px;
+}
+#best-sellar-product .container .lotion .lotion-info h5 {
+  font-family: Josefin Sans;
+  font-size: 20px;
+  margin-bottom: 11px;
+  font-weight: 600;
+}
+#best-sellar-product .container .lotion .lotion-info span {
+  color: #FF6F61;
+  font-size: 16px;
+}
+
+#deal-of-day {
+  margin-top: 100px;
+}
+#deal-of-day .container {
+  position: relative;
+}
+#deal-of-day .deal-head {
+  font-family: Josefin Sans;
+  font-size: 36px;
+  color: #11161E;
+  font-weight: 700;
+  line-height: 46px;
+  text-align: center;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+}
+#deal-of-day .counter {
+  width: 100%;
+  max-width: 424px;
+  margin: auto;
+  height: 70px;
+  border-radius: 40px;
+  top: 12%;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  z-index: 99;
+  text-align: center;
+  background: #FFF;
+  box-shadow: 0px 0px 10px 0px rgba(21, 26, 50, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#deal-of-day .counter ul li {
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+#deal-of-day .counter ul li::after {
+  content: "";
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: #FF6F61;
+  position: absolute;
+  right: -22px;
+  top: 10px;
+}
+#deal-of-day .counter ul li::before {
+  content: "";
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: #FF6F61;
+  position: absolute;
+  right: -22px;
+  top: 30px;
+}
+#deal-of-day .counter ul li:last-child::after, #deal-of-day .counter ul li:last-child::before {
+  display: none;
+}
+#deal-of-day .counter ul li h4 {
+  font-family: Josefin Sans;
+  font-size: 24px;
+  color: #11161E;
+  font-weight: 700;
+  line-height: 34px;
+}
+#deal-of-day .counter ul li p {
+  font-family: Josefin Sans;
+  font-size: 16px;
+  color: #444;
+  font-weight: 400;
+  line-height: 26px;
+}
+#deal-of-day .deal {
+  width: 100%;
+  padding: 75px 40px;
+  background: #FFF;
+  box-shadow: 0px 0px 70px 0px rgba(21, 26, 50, 0.08);
+}
+#deal-of-day .deal .deal-box {
+  background-color: #A6AAB7;
+  padding: 35px 140px 131px 40px;
+}
+#deal-of-day .deal .deal-box h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+#deal-of-day .deal .deal-box h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 19px;
+  transition-delay: 0.2s;
+}
+#deal-of-day .deal .deal-box p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 29px;
+  transition-delay: 0.4s;
+}
+#deal-of-day .deal .deal-box a {
+  padding: 13px 37px;
+  background-color: #151A32;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 600;
+  display: inline-block;
+  transition-delay: 0.5s;
+  margin-top: 30px;
+}
+#deal-of-day .deal-dots {
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 30px;
+  width: 150px;
+  display: inline-block;
+  opacity: 1;
+}
+#deal-of-day .deal-dots li {
+  display: inline-block;
+}
+#deal-of-day .deal-dots li button {
+  width: 11px;
+  height: 8px;
+  border-radius: 25% !important;
+  border: none;
+  color: transparent;
+  margin-left: 10px;
+  background-color: #A6AAB7;
+  transition: 0.3 ease;
+}
+#deal-of-day .deal-dots li.slick-active button {
+  width: 25px;
+  background-color: #151A32;
 }/*# sourceMappingURL=aytor.css.map */

@@ -1,172 +1,896 @@
         // Font Family 
- @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Roboto:wght@400;700&display=swap');  
- 
- 
-//  variables 
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Roboto:wght@400;700&display=swap');
 
-            // fonts 
-$primaryFont: 'Josefin Sans', sans-serif;
-$secondaryFont:'Roboto', sans-serif;
-            // colors 
- $primaryColor:#FF6F61;
- $textColor:#11161E;  
+
+        //  variables 
+
+        // fonts 
+        $primaryFont: 'Josefin Sans', sans-serif;
+        $secondaryFont: 'Roboto', sans-serif;
+        // colors 
+        $primaryColor: #FF6F61;
+        $textColor: #11161E;
+        $paragrapColor: #444;
+        $iconColor: #151A32;
 
         // COMMON CSS
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-a{
-    text-decoration: none;
-}
-ul,ol{
-    list-style: none;
-}
-h1,h2,h3,h4,h5,h6,ol,ul,p,span{
-    margin: 0;
-    padding: 0;
-}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+
+        ul,
+        ol {
+            list-style: none;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        ol,
+        ul,
+        p,
+        span {
+            margin: 0;
+            padding: 0;
+        }
+
         // COMMON CSS END
 
-         // nav starts here 
-nav{
-    .menulist{
-         li a{
-            font-family:$primaryFont ;
-            color: $textColor;
-            font-size: 16px;
-            font-weight: 400;
-            margin: 37px 14px ;
-            display: block;
-            transition: 0.3s ease-in;
-            &:hover{
-                color:$primaryColor ;
-            }
-        }
-    }
-    .navicons{
-        ul li{
-            display: inline-block;
-            a,span{
-                margin:38px 7px ;
-                color: #151A32;
-                font-size: 22px;
-                position: relative;
-                span{
-                    height: 15px;
-                    width: 15px;
-                    border-radius: 50%;
-                    background-color: $primaryColor;
-                    line-height: 15px;
-                    font-size: 14px;
-                    display: inline-block;
-                    position: absolute;
-                    text-align: center;
-                    color: white;
-                    top:-39px ;
-                    left:4px ;
+        // nav starts here 
+        nav {
+            .menulist {
+                li a {
+                    font-family: $primaryFont ;
+                    color: $textColor;
+                    font-size: 16px;
+                    font-weight: 400;
+                    margin: 37px 14px;
+                    display: block;
+                    transition: 0.3s ease-in;
+
+                    &:hover {
+                        color: $primaryColor ;
+                    }
                 }
+            }
 
+            .navicons {
+                ul li {
+                    display: inline-block;
+
+                    a,
+                    span {
+                        margin: 38px 7px;
+                        color: #151A32;
+                        font-size: 22px;
+                        position: relative;
+
+                        span {
+                            height: 15px;
+                            width: 15px;
+                            border-radius: 50%;
+                            background-color: $primaryColor;
+                            line-height: 15px;
+                            font-size: 14px;
+                            display: inline-block;
+                            position: absolute;
+                            text-align: center;
+                            color: white;
+                            top: -39px;
+                            left: 4px;
+                        }
+
+                    }
+                }
             }
         }
-    }
-}
-        // sm nav starts here 
-.offcanvas{
-    .sm-nav-list{
+        // sm nav start
+        .sm-search{
 
-        margin-left: 20px;
-        li{
-            a{
-              display: block;
-              padding: 16px;
-              color: $textColor;
-                
+            .form {
+
+                position: relative;
+            }
+    
+            .form .fa-search {
+    
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                color: #9ca3af;
+    
+            }
+    
+            .form span {
+    
+                position: absolute;
+                right: 17px;
+                top: 13px;
+                padding: 2px;
+                border-left: 1px solid #d1d5db;
+    
+            }
+    
+            .left-pan {
+                padding-left: 7px;
+            }
+    
+            .left-pan i {
+    
+                padding-left: 10px;
+            }
+    
+            .form-input {
+    
+                height: 55px;
+                text-indent: 33px;
+                border-radius: 10px;
+            }
+    
+            .form-input:focus {
+    
+                box-shadow: none;
+                border: none;
+            }    
+        }
+
+        .offcanvas {
+            .sm-nav-list {
+
+                margin-left: 20px;
+
+                li {
+                    a {
+                        display: block;
+                        padding: 16px;
+                        color: $textColor;
+
+                    }
+                }
             }
         }
-    }
-}
+        .sm-nav-menu-icon{
+            outline: none;
+            font-size: 25px;
+            border: none;
+            background-color: transparent;
+            padding-left: 10px;
+        }
+
         // sm nav ends here 
         // nav ends here 
 
 
-    // home page starts here 
+        // home page starts here 
 
-            // banner 
-#banner{
-    .banner-slide{
-        height: 700px;
-        background-position: center;
-        background-size: cover;
-        .banner-cnt {
-            color: #1D1D1D;
-            font-family: Josefin Sans;
-            h5{
-                font-size: 18px;
-                font-weight: 600;
-                margin-bottom: 14px;
+        // banner 
+        #banner {
+            .banner-slide {
+                height: 700px;
+                background-position: center;
+                background-size: cover;
+
+                .banner-cnt {
+                    color: #1D1D1D;
+                    font-family: Josefin Sans;
+
+                    h5 {
+                        font-size: 18px;
+                        font-weight: 600;
+                        margin-bottom: 14px;
+                    }
+
+                    h2 {
+                        font-size: clamp(20px, 12vw, 64px);
+                        font-weight: 700;
+                        margin-bottom: 16px;
+                        transition-delay: 0.2s;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        font-weight: 400;
+                        margin-bottom: 29px;
+                        transition-delay: 0.4s;
+
+                    }
+
+                    a {
+                        padding: 13px 37px;
+                        background-color: $primaryColor;
+                        color: #FFF;
+                        font-size: 18px;
+                        font-weight: 600;
+                        display: inline-block;
+                        transition-delay: 0.5s;
+
+                    }
+
+                    &>* {
+                        transform: translateY(100px);
+                        opacity: 0;
+                        transition: 0.5s ease-in;
+                    }
+                }
+
+                &.slick-active .banner-cnt>* {
+                    transform: translateY(0);
+                    opacity: 1;
+
+                }
             }
-            h2{
-                font-size: clamp(20px,12vw,64px);
+
+            .slick-dots {
+                position: absolute;
+                top: 70%;
+                left: 50%;
+                margin-top: 30px;
+                transform: translate(-50%);
+                opacity: 1;
+
+                li {
+                    display: inline-block;
+
+                    button {
+                        width: 11px;
+                        height: 8px;
+                        border-radius: 25% !important;
+                        ;
+                        border: none;
+                        color: transparent;
+                        margin-left: 10px;
+                        background-color: white;
+                        transition: 0.3 ease;
+                    }
+
+                    &.slick-active button {
+                        width: 25px;
+                        background-color: $primaryColor;
+                    }
+
+                }
+            }
+        }
+
+        // product Section 
+        #product {
+            margin-top: 85px;
+            margin-bottom: 85px;
+            
+            .beauty-perfume {
+
+                .beauty {
+                    margin-bottom: 35px;
+                    position: relative;
+
+                    &:hover .beauty-overlay {
+                        transform: scale(1);
+                        opacity: 0.4000000059604645;
+                        visibility: visible;
+
+
+                    }
+
+
+
+                    .beauty-overlay {
+                        position: absolute;
+                        top: 5%;
+                        left: 5%;
+                        // height: 223px;
+                        // width: 400px;
+                        height: 90%;
+                        width: 90%;
+                        background-color: $textColor;
+                        opacity: 0.4000000059604645;
+                        transform: scale(0.1);
+                        opacity: 0;
+                        visibility: hidden;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        transition: 0.4s;
+
+                        h4 {
+                            font-family: Josefin Sans;
+                            font-size: clamp(14px, 10vw, 27px);
+                            font-weight: 700;
+                            color: #FFF;
+                            line-height: 40px;
+                            opacity: 1;
+
+                        }
+
+                        a {
+                            color: #FFF;
+                            font-family: Josefin Sans;
+                            font-size: clamp(8px, 10vw, 14px);
+                            font-weight: 600;
+                            line-height: 28px;
+                            opacity: 1;
+
+                        }
+
+                    }
+                }
+
+                .perfume {
+                    position: relative;
+
+                    &:hover .perfume-overlay {
+                        transform: scale(1);
+                        opacity: 0.4000000059604645;
+                        visibility: visible;
+
+
+                    }
+
+
+
+                    .perfume-overlay {
+                        position: absolute;
+                        top: 5%;
+                        left: 5%;
+                        height: 90%;
+                        width: 90%;
+                        background-color: $textColor;
+                        opacity: 0.4000000059604645;
+                        transform: scale(0.1);
+                        opacity: 0;
+                        visibility: hidden;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        transition: 0.4s;
+
+                        h4 {
+                            font-family: Josefin Sans;
+                            font-size: clamp(14px, 12vw, 27px);
+                            font-weight: 700;
+                            color: #FFF;
+                            line-height: 40px;
+                            opacity: 1;
+
+                        }
+
+                        a {
+                            color: #FFF;
+                            font-family: Josefin Sans;
+                            font-size: clamp(8px, 12vw, 14px);
+                            font-weight: 600;
+                            line-height: 28px;
+                            opacity: 1;
+
+                        }
+
+                    }
+                }
+            }
+
+            .soap {
+                position: relative;
+
+                img {
+                    // inset: 0;
+                    // display: inline-block;
+                    // margin-left: 5px;
+                }
+
+                &:hover .soap-overlay {
+                    transform: scale(1);
+                    opacity: 0.4000000059604645;
+                    visibility: visible;
+
+
+                }
+
+
+
+                .soap-overlay {
+                    position: absolute;
+                    top: 5%;
+                    left: 5%;
+                    height: 90%;
+                    width: 90%;
+                    background-color: $textColor;
+                    opacity: 0.4000000059604645;
+                    transform: scale(0.1);
+                    opacity: 0;
+                    visibility: hidden;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    transition: 0.4s;
+
+                    h4 {
+                        font-family: Josefin Sans;
+                        font-size: clamp(18px, 12vw, 32px);
+                        font-weight: 700;
+                        color: #FFF;
+                        line-height: 40px;
+                        opacity: 1;
+
+                    }
+
+                    a {
+                        color: #FFF;
+                        font-family: Josefin Sans;
+                        font-size: clamp(10px, 12vw, 14px);
+                        font-weight: 600;
+                        line-height: 28px;
+                        opacity: 1;
+
+                    }
+
+                }
+            }
+        }
+
+        // new product section 
+        #new-product {
+            .arrival-head{
+                color: var(--text-color, #11161E);
+                text-align: center;
+                font-family: Josefin Sans;
+                font-size: 36px;
                 font-weight: 700;
-                margin-bottom: 16px;
-                transition-delay: 0.2s;
+                line-height: 46px;
+                text-align: center;
+                margin-bottom: 30px;
             }
-            p{
-                font-size: 16px;
-                font-weight: 400;
-                margin-bottom: 29px;
-                transition-delay: 0.4s;
+            .arrows {
+                .left-arrow {
+                    position: absolute;
+                    top: 40%;
+                    left: 0;
+                    height: 50px;
+                    width: 30px;
+                    background-color: $iconColor;
+                    opacity: 0.5;
+                    color: #fff;
+                    line-height: 50px;
+                    font-size: 20px;
+                    text-align: center;
+                    transform: translateX(97%);
+                }
 
+                .right-arrow {
+                    position: absolute;
+                    top: 40%;
+                    right: 0;
+                    height: 50px;
+                    width: 30px;
+                    background-color: $iconColor;
+                    opacity: 0.5;
+                    color: #fff;
+                    line-height: 50px;
+                    font-size: 20px;
+                    text-align: center;
+                    transform: translateX(-97%);
+                }
             }
-            a{
-                padding: 13px 37px;
-                background-color: $primaryColor;
-                color:#FFF ;
-                font-size: 18px;
-                font-weight: 600;
-                display: inline-block;
-                transition-delay: 0.5s;
+
+            .lotion {
+                padding: 0 15px;
+
+                .lotion-img {
+                    position: relative;
+
+                    .sale {
+                        position: absolute;
+                        top: 10px;
+                        left: 20px;
+                        background-color: $primaryColor;
+                        padding: 5px 8px;
+                        color: #FFF;
+                        transform: rotate(-90deg);
+                        border-radius: 13px 0 0 13px;
+                    }
+
+                    .hvr-icon {
+                        position: absolute;
+                        top: 50%;
+                        right: 25px;
+                        transform: translateY(-50%);
+
+                        ul li a {
+                            width: 36px;
+                            height: 36px;
+                            background-color: #FFF;
+                            color: $iconColor;
+                            display: inline-block;
+                            text-align: center;
+                            line-height: 36px;
+                            border-radius: 50%;
+                            margin-bottom: 15px;
+                            transition: 0.3s;
+                            transform: translateX(-60px);
+                            opacity: 0;
+                            visibility: hidden;
+
+                            &:hover {
+                                background-color: $primaryColor;
+                                color: #fff;
+                            }
+
+                        }
+                    }
+
+                    &:hover .hvr-icon a {
+                        transform: translateX(0);
+                        opacity: 1;
+                        visibility: visible;
+                        transition-delay: calc(0.3s * var(--num));
+                    }
+
+                    &:hover img {
+                        filter: brightness(.8) contrast(1.2);
+                    }
+                }
+
+                .lotion-info {
+                    text-align: center;
+                    padding: 24px 0;
+
+                    p {
+                        font-family: Josefin Sans;
+                        font-size: 16px;
+                        color: $paragrapColor;
+                        margin-bottom: 5px;
+                    }
+
+                    h5 {
+                        font-family: Josefin Sans;
+                        font-size: 20px;
+                        margin-bottom: 11px;
+                        font-weight: 600;
+                    }
+
+                    span {
+                        color: $primaryColor;
+                        font-size: 16px;
+                    }
+                }
+            }
+
+
+        }
+
+        // get-discount section 
+        #get-discount {
+            margin-bottom: 100px;
+            margin-top: 80px;
+
+            .discount-banner {
+                height: 524px;
+                background-size: cover;
+                background-position: center;
+
+                .discount-info {
+                    h2 {
+                        color: #FFF;
+                        font-family: Josefin Sans;
+                        font-size: 36px;
+                        font-weight: 700;
+                    }
+
+                    p {
+                        font-family: Roboto;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        color: #fff;
+
+                    }
+
+                    a {
+                        padding: 13px 37px;
+                        border: 1px solid #fff;
+                        color: #FFF;
+                        font-size: 18px;
+                        font-weight: 600;
+                        display: inline-block;
+                        transition-delay: 0.5s;
+                        margin-top: 30px;
+
+                    }
+                }
+            }
+        }
+
+        // best sellar producct section 
+        #best-sellar-product {
+
+            .container {
+                h2 {
+                    font-family: Josefin Sans;
+                    font-size: 36px;
+                    color: $textColor;
+                    font-weight: 700;
+                    line-height: 46px;
+                    text-align: center;
+                    margin-bottom: 36px;
+                }
+
+                .bext-btn{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    a{
+                        padding: 13px 37px;
+                        background-color: $primaryColor;
+                        color:#fff;
+                        font-size: 18px;
+                        font-weight: 600;
+                        display: inline-block;
+                        transition-delay: 0.5s;
+                        margin-top: 30px;
+                        text-align: center;  
+                    }
+                        
+                }
+
+                .lotion {
+                    padding: 0 15px;
+
+                    .lotion-img {
+                        position: relative;
+
+                        .sale {
+                            position: absolute;
+                            top: 10px;
+                            left: 20px;
+                            background-color: $primaryColor;
+                            padding: 5px 8px;
+                            color: #FFF;
+                            transform: rotate(-90deg);
+                            border-radius: 13px 0 0 13px;
+                        }
+
+                        .hvr-icon {
+                            position: absolute;
+                            top: 50%;
+                            right: 25px;
+                            transform: translateY(-50%);
+
+                            ul li a {
+                                width: 36px;
+                                height: 36px;
+                                background-color: #FFF;
+                                color: $iconColor;
+                                display: inline-block;
+                                text-align: center;
+                                line-height: 36px;
+                                border-radius: 50%;
+                                margin-bottom: 15px;
+                                transition: 0.3s;
+                                transform: translateX(-60px);
+                                opacity: 0;
+                                visibility: hidden;
+
+                                &:hover {
+                                    background-color: $primaryColor;
+                                    color: #fff;
+                                }
+
+                            }
+                        }
+
+                        &:hover .hvr-icon a {
+                            transform: translateX(0);
+                            opacity: 1;
+                            visibility: visible;
+                            transition-delay: calc(0.3s * var(--num));
+                        }
+
+                        &:hover img {
+                            filter: brightness(.8) contrast(1.2);
+                        }
+                    }
+
+                    .lotion-info {
+                        text-align: center;
+                        padding: 24px 0;
+
+                        p {
+                            font-family: Josefin Sans;
+                            font-size: 16px;
+                            color: $paragrapColor;
+                            margin-bottom: 5px;
+                        }
+
+                        h5 {
+                            font-family: Josefin Sans;
+                            font-size: 20px;
+                            margin-bottom: 11px;
+                            font-weight: 600;
+                        }
+
+                        span {
+                            color: $primaryColor;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+
+        }  
+        // deal-of-day section 
+        #deal-of-day{
+            margin-top: 100px;
+            .container{
+                position: relative;
+            }
+            .deal-head{
+                    font-family: Josefin Sans;
+                    font-size: 36px;
+                    color: $textColor;
+                    font-weight: 700;
+                    line-height: 46px;
+                    text-align: center;
+                    margin-bottom: 50px;
+                    padding-bottom: 30px;
+            }
+            .counter{
+                width: 100%;
+                max-width: 424px;
+                margin: auto;
+                height: 70px;
+                border-radius: 40px;
+                top: 12%;
+                left: 50%;
+                transform: translateX(-50%);
+                position: absolute;
+                z-index: 99;
+                text-align: center;
+                background: #FFF;
+                box-shadow: 0px 0px 10px 0px rgba(21, 26, 50, 0.10);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                ul{
+                    li{
+                        display: inline-block;
+                        margin: 0 20px;
+                        position: relative;
+                        &::after{
+                            content: '';
+                            height: 6px;
+                            width: 6px;
+                            border-radius: 50%;
+                            background-color: $primaryColor;
+                            position: absolute;
+                            right: -22px;
+                            top: 10px;
+                        }
+                        &::before{
+                            content: '';
+                            height: 6px;
+                            width: 6px;
+                            border-radius: 50%;
+                            background-color: $primaryColor;
+                            position: absolute;
+                            right: -22px;
+                            top: 30px;
+                        }
+                        &:last-child::after,
+                        &:last-child::before{
+                            display: none;
+
+                        }
+
+                        h4{
+                            font-family: Josefin Sans;
+                            font-size: 24px;
+                            color: $textColor;
+                            font-weight: 700;
+                            line-height: 34px; 
+                        }
+                        p{
+                            font-family: Josefin Sans;
+                            font-size: 16px;
+                            color: #444;
+                            font-weight: 400;
+                            line-height: 26px;
+                        }
+
+
+                    }
+                }
                 
             }
-            & >*{
-                transform: translateY(100px);
-                opacity: 0;
-                transition: 0.5s ease-in;
-            }
-        }
+            .deal{
+                width: 100%;
+                padding: 75px 40px;
+                background: #FFF;
+                box-shadow: 0px 0px 70px 0px rgba(21, 26, 50, 0.08);
+                .deal-box{
+                    background-color: #A6AAB7;
+                    padding: 35px 140px 131px 40px;
+                    
 
-        &.slick-active .banner-cnt > *{
-            transform: translateY(0);
-            opacity: 1;
-             
-        }
-    }
-    .slick-dots{
-        position: absolute;
-        top: 70%;
-        left: 50%;
-        margin-top: 30px;
-        transform: translate(-50%);
-        li{
-            display: inline-block;
-            button{
-                width:11px ;
-                height:8px ;
-                border-radius: 25%!important;;
-                border: none;
-                color: transparent;
-                margin-left:10px ;
-                background-color: white;
-                transition: 0.3 ease;
-            }
-            &.slick-active button{
-                width: 25px;
-                background-color: $primaryColor;
-            }
+                    h5 {
+                        font-size: 18px;
+                        font-weight: 600;
+                        margin-bottom: 14px;
+                    }
 
+                    h2 {
+                        font-size:36px;
+                        font-weight: 700;
+                        margin-bottom: 19px;
+                        transition-delay: 0.2s;
+                    }
+
+                    p {
+                        font-family: $secondaryFont;
+                        font-size: 16px;
+                        font-weight: 400;
+                        margin-bottom: 29px;
+                        transition-delay: 0.4s;
+
+                    }
+
+                    a {
+                        padding: 13px 37px;
+                        background-color: $iconColor;
+                        color: #FFF;
+                        font-size: 18px;
+                        font-weight: 600;
+                        display: inline-block;
+                        transition-delay: 0.5s;
+                        margin-top: 30px;
+                        
+
+                    }
+                }
+
+            }
+            .deal-dots {
+                position: absolute;
+                bottom: 3%;
+                left: 50%;
+                transform: translateX(-50%);
+                margin-top: 30px;
+                width: 150px;
+                display: inline-block;
+                opacity: 1;
+
+                li {
+                    display: inline-block;
+
+                    button {
+                        width: 11px;
+                        height: 8px;
+                        border-radius: 25% !important;
+                        
+                        border: none;
+                        color: transparent;
+                        margin-left: 10px;
+                        background-color:#A6AAB7;
+                        transition: 0.3 ease;
+                    }
+
+                    &.slick-active button {
+                        width: 25px;
+                        background-color: $iconColor;
+                    }
+
+                }
+            }
         }
-    }
-}
-// home page ends here 
+        
+        
+        // home page ends here 

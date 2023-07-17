@@ -1,0 +1,380 @@
+@media (min-width:992px) and (max-width:1199px){
+    /*Home Page*/
+    // nav 
+    nav{
+        .menulist{
+        li{
+            a{
+                margin: 37px 0;
+            }
+        }
+    }
+    }
+    
+    
+}
+@media (min-width:768px) and (max-width:991px){
+
+    // Home page
+    #banner{
+        .slick-dots{
+            top: 80%;
+        }
+        .banner-slide{
+            height: 500px;
+            width: auto;
+            .banner-cnt{
+                h5{   
+                font-size: 15px;
+                margin-bottom: 8px;
+                }
+                h2{
+                    margin-bottom: 8px;
+                    font-size: 40px;
+                }
+                p{
+                    margin-bottom: 8px;
+                }
+                a{
+                padding: 5px 14px;
+                color: #fff;
+                font-size: 12px;
+                  
+                }
+                
+            }
+        }
+    }       
+
+    #product{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #new-product{
+        .arrival-head{
+            font-size: 28px;
+        }
+    }
+    #get-discount{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        .discount-banner{
+            height: 350px;
+            .discount-info{
+             h2{
+                font-size: 30px;
+                width: auto;
+                
+            }
+            p{
+                font-size: 14px;
+            }  
+            a{
+                font-size: 16px;
+                padding: 11px 33px;
+            }
+            }
+            
+        }
+    }
+    #best-sellar-product{
+        .container{
+            h2{
+                font-size: 28px;
+            }
+            .bext-btn{
+                a{
+                    font-size: 15px;
+                    padding: 12px 30px;
+                    
+                }
+            }
+        }
+    }
+    #deal-of-day{
+        .deal-head{
+            font-size: 28px;
+            margin-bottom: 35px;
+        }
+    }
+}
+
+
+@media (min-width:577px) and (max-width:767px){
+
+    // Home page
+    #banner{
+        .slick-dots{
+            opacity: 0;
+            
+            
+             
+                
+        }
+        .banner-slide{
+            height: 400px;
+            width: auto;
+            .banner-cnt{
+                h5{   
+                font-size: 12px;
+                margin-bottom: 7px;
+                }
+                h2{
+                    margin-bottom: 7px;
+                    font-size: 30px;
+                }
+                p{
+                    margin-bottom: 7px;
+                    font-size: 12px;
+                }
+                a{
+                padding: 7px 13px;
+                color: #fff;
+                font-size: 12px;
+                  
+                }
+                
+            }
+        }
+    }
+    #product{
+        margin-top: 50px;
+        margin-bottom: 40px;
+        .beauty-perfume{
+            .beauty{
+                .beauty-overlay{
+                    h4{
+                        font-size: clamp(14px, 10vw, 20px);
+                    }
+                    a{
+
+                    }
+                }
+            }
+            .perfume{
+                .perfume-overlay{
+                    h4{
+                        font-size: clamp(14px, 10vw, 20px);
+                    }
+                    a{
+
+                    }
+                }
+            }
+        }
+        .soap{
+            .soap-overlay{
+                h4{
+
+                }
+                a{
+
+                }
+            }
+        }
+    }
+    #new-product{
+        .arrival-head{
+            font-size: 28px;
+        }
+    }
+    #get-discount{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        .discount-banner{
+            height: 280px;
+            .discount-info{
+             h2{
+                font-size: 20px;
+                width: auto;
+                
+            }
+            p{
+                font-size: 12px;
+            }  
+            a{
+                font-size: 14px;
+                padding: 9px 26px;
+                margin-top: 15px;
+            }
+            }
+            
+        }
+    }
+    #best-sellar-product{
+        .container{
+            h2{
+                font-size: 28px;
+            }
+            .bext-btn{
+                a{
+                    font-size: 15px;
+                    padding: 12px 30px;
+                    
+                }
+            }
+        }
+    }
+    #deal-of-day{
+        .deal-head{
+            font-size: 28px;
+            margin-bottom: 35px;
+        }
+        .deal{
+
+            .deal-box{
+                padding: 35px 140px 100px 40px;
+            }
+        }
+    }
+    
+}
+@media (min-width:320px) and (max-width:576px){
+
+    // Home page
+    #banner{
+        .slick-dots{
+            opacity: 0;
+            
+            
+             
+                
+        }
+        .banner-slide{
+            height: 200px;
+            width: auto;
+            .banner-cnt{
+                h5{   
+                font-size: 10px;
+                margin-bottom: 5px;
+                }
+                h2{
+                    margin-bottom: 5px;
+                    font-size: 25px;
+                }
+                p{
+                    margin-bottom: 5px;
+                    font-size: 10px;
+                }
+                a{
+                padding: 5px 10px;
+                color: #fff;
+                font-size: 10px;
+                  
+                }
+                
+            }
+        }
+    }
+    
+    #product{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        .beauty-perfume{
+            .beauty{
+                .beauty-overlay{
+                    h4{
+                        font-size: clamp(14px, 10vw, 18px);
+                    }
+                    a{
+                        font-size: clamp(8px, 10vw, 12px);
+                    }
+                }
+            }
+            .perfume{
+                .perfume-overlay{
+                    h4{
+                        font-size: clamp(14px, 10vw, 20px);
+                    }
+                    a{
+
+                    }
+                }
+            }
+        }
+        .soap{
+            .soap-overlay{
+                h4{
+
+                }
+                a{
+                    
+                }
+            }
+        }
+    }
+    #new-product{
+        .arrival-head{
+            font-size: 28px;
+        }
+    }
+    #get-discount{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        .discount-banner{
+            height: 280px;
+            .discount-info{
+             h2{
+                font-size: 20px;
+                width: auto;
+                
+            }
+            p{
+                font-size: 12px;
+            }  
+            a{
+                font-size: 14px;
+                padding: 9px 26px;
+                margin-top: 15px;
+            }
+            }
+            
+        }
+    }
+    #best-sellar-product{
+        .container{
+            h2{
+                font-size: 28px;
+            }
+            .bext-btn{
+                a{
+                    font-size: 15px;
+                    padding: 12px 30px;
+                    
+                }
+            }
+        }
+    }
+    #deal-of-day{
+        margin-top: 50px;
+        .deal-head{
+            font-size: 28px;
+            margin-bottom: 35px;
+        }
+        .counter{
+            border-radius: 0;
+        }
+        .deal{
+
+            .deal-box{
+                padding: 30px 50px 30px 30px;
+                h5{
+                    font-size:15px ;
+                    margin-bottom:10px;
+                }
+                h2{
+                    font-size:28px ;
+                    margin-bottom: 14px;
+                }
+                p{
+                    font-size:12px ;
+                    margin-bottom:20px;
+                }
+                a{
+                    font-size: 12px;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
