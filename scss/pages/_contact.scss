@@ -1,0 +1,112 @@
+#contact-by{
+    margin-bottom: 50px;
+    .call-email-follow{
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        .head{
+            padding: 20px 20px 10px 20px;
+            .call-icon{
+                line-height: 38px;
+                font-size: 30px;
+                text-align: left;
+                color: $textColor;
+                transition: 0.3s;
+                &:hover{
+                    color: $primaryColor;
+                }
+            }
+            h3{
+                color:$textColor;
+                font-family: Josefin Sans;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 34px;
+                padding:5px 20px 5px 40px ;
+                text-align: left;
+            }
+        }
+        p{
+            color:$paragrapColor;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            padding:5px 30px  5px 75px;
+        }
+        h5{
+            color:$textColor;
+            font-family: Josefin Sans;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 28px;
+            padding:5px 30px  5px 75px;
+        }
+        a{
+            color:$paragrapColor;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            padding:5px 5px  5px 75px;
+        }
+        ul{
+            li{
+                display: inline-block;
+                .cnt-icon{
+                    color:$paragrapColor;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 28px; 
+                }
+            }
+        }
+        .phonen{
+            padding-left: 75px;
+        }
+
+    }
+}
+//   get in tauch 
+
+#get-in-tauch{
+    .info{
+        .basic-info{
+            width: 260px;
+            height: 56px;
+            color: #828282;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            background: #F1F3F4;
+            border: none;
+            margin-top: 10px;
+            margin-right: 10px;
+            padding-left: 20px;
+
+        }
+        .massage{
+            width: 98%;
+            height:265px;
+            color: #828282;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            background: #F1F3F4;
+            border: none;
+            margin-top: 10px;
+            padding-left: 20px;
+            margin-bottom:20px;
+            
+
+        }
+        
+    }
+    img{
+        margin-top: 10px;
+    }
+}

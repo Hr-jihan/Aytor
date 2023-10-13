@@ -1,0 +1,154 @@
+#blog-banner{
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    margin-bottom: 80px;
+    .about-banner-info{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        
+        h2{
+            color:#fff;
+            text-align: center;
+            font-family: Josefin Sans;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 58px;
+        }
+        p{
+            color:#fff;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+        }
+    }
+}
+#post {
+    .container {
+        .post-page {
+            .post-items {
+                margin-bottom: 20px;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+                .post-img {
+                    position: relative;
+                    width: 100%;
+                    padding: 0;
+
+                    .overlay {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 150px;
+                        height: 40px;
+                        background-color: $textColor ;
+                        opacity: 0.4;
+                        text-align: center;
+
+                        span {
+                            color: #FFF;
+                            font-family: Josefin Sans;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 40px;
+                        }
+                    }
+
+                }
+
+                .post-details {
+                    padding: 10px 10px;
+
+                    h4 {
+                        color: $textColor;
+                        font-family: Josefin Sans;
+                        font-size: 22px;
+                        font-weight: 700;
+                        line-height: 34px;
+                        margin-bottom: 10px;
+                        transition: 0.2s;
+
+                        &:hover {
+                            color: $primaryColor;
+
+                        }
+                    }
+
+                    p {
+                        color: $paragrapColor;
+                        font-family: Roboto;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        margin-bottom: 15px;
+                        transition: 0.2s;
+
+                        &:hover {
+                            color: $primaryColor;
+
+                        }
+
+                    }
+
+                    a {
+                        color: $paragrapColor;
+                        font-family: Josefin Sans;
+                        font-size: 16px;
+                        font-weight: 600;
+                        margin-bottom: 15px;
+                        transition: 0.2s;
+
+                        &:hover {
+                            color: $primaryColor;
+
+                        }
+
+
+                    }
+                }
+            }
+        }
+        .next-previous{
+            margin: 20px 5px;
+            ul{
+                .page-item{
+
+                    .previous-btn{
+                        color: $textColor;
+                        font-weight: 600;
+                        padding:  10px;
+                        font-family: Josefin Sans;
+                        font-size: 16px;
+                        line-height: 50px;
+                        
+                    }
+                    .next-btn{
+                        color: $textColor;
+                        font-weight: 600;
+                        padding: 10px;
+                        font-family: Josefin Sans;
+                        font-size: 16px;
+                        line-height: 50px;
+                    }
+                    .number-option{
+                        color: $textColor;
+                        height: 50px;
+                        width: 50px;
+                        text-align: center;
+                        line-height: 40px;
+                    }
+                    .active{
+                        background-color: $textColor;
+                        color: #fff;
+                        border: $textColor;
+                    }
+                }
+            }
+        }
+    }
+}

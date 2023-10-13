@@ -1,0 +1,509 @@
+// about banner section starts 
+#details-banner{
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    margin-bottom: 80px;
+    .about-banner-info{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        
+        h2{
+            color:#fff;
+            text-align: center;
+            font-family: Josefin Sans;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 58px;
+        }
+        p{
+            color:#fff;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+        }
+    }
+}
+#jacket {
+    .container {
+        .jacket-slider {
+            margin-bottom: 30px;
+            .main-slider {
+                img {
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+            }
+
+            .sub-slider {
+                img {
+                    padding-right: 10px;
+                    width: 100%;
+                    transform: scale(0.8);
+                    filter: brightness(50%);
+
+                    &.slick-center {
+                        transform: scale(1);
+                        filter: brightness(100%);
+                    }
+                }
+            }
+
+        }
+
+        .jacket-info {
+            margin-bottom: 30px;
+           
+            h2 {
+                color: $textColor;
+                font-family: Josefin Sans;
+                font-size: 30px;
+                font-weight: 700;
+            }
+
+            .star-sec {
+
+                p {
+                    color: $paragrapColor;
+                    font-family: Josefin Sans;
+                    font-size: 16px;
+
+                    span {
+                        color: $primaryColor;
+                        font-size: 16px;
+                        margin-left: 5px;
+                    }
+                }
+            }
+
+            .money-sec {
+                margin-bottom: -15px;
+                margin-top: -10px;
+
+                p {
+                    color: $paragrapColor;
+                    font-family: Josefin Sans;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 40px;
+                    text-decoration: line-through;
+                }
+            }
+
+            p {
+                color: $paragrapColor;
+                text-align: justify;
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 28px;
+                margin-bottom: 30px;
+            }
+
+            .size-sec {
+                margin-bottom: 20px;
+                h5 {
+                    color: $textColor;
+                    font-family: Josefin Sans;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 37px;
+                }
+
+                select {
+                    border: 1px solid #E0E0E0;
+                    background: #fff;
+                    width: 100%;
+                    height: 40px;
+                    display: inline-block;
+
+                }
+            }
+
+            .color-sec {
+                h5 {
+                    color: $textColor;
+                    font-family: Josefin Sans;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 37px;
+                }
+
+                select {
+                    border: 1px solid #E0E0E0;
+                    background: #fff;
+                    width: 100%;
+                    height: 40px;
+                    display: inline-block;
+
+                }
+            }
+
+            .counter-sec {
+                margin-top: 50px;
+                margin-bottom: 27px;
+
+                .quantity-arrow {
+                    display: flex;
+
+                    .quantity-down {
+                        width: 50px;
+                        height: 50px;
+                        border: 1px solid black;
+                    }
+
+                    .quantity-up {
+                        width: 50px;
+                        height: 50px;
+                        border: 1px solid black;
+                    }
+
+                    .output {
+                        height: 50px;
+                        font-size: 18px;
+                        color: $paragrapColor;
+                        height: 20px;
+                        text-align: center;
+                        border: 1px solid black;
+                        box-shadow: none;
+                    }
+                }
+                .cart {
+                    height: 50px;
+                    background-color: $primaryColor;
+                    display: inline-block;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                
+                    a {
+                        color: white;
+                        font-family: Josefin Sans;
+                        font-size: 16px;
+                
+                     }
+                }
+                .cart-icon {
+
+                    a {
+                        width: 50px;
+                        height: 50px;
+                        background-color: #151A32;
+                        color: #fff;
+                        font-size: 20px;
+                        text-align: center;
+                        line-height: 50px;
+                        display: inline-block;
+    
+    
+                    }
+                }
+
+            }
+
+            .info {
+                margin-top: 50px;
+
+                h5 {
+                    color: $textColor;
+                    font-family: Josefin Sans;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 28px;
+                }
+
+                span {
+                    color: $paragrapColor;
+                    font-family: Josefin Sans;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 28px;
+                }
+
+                a {
+
+                    font-family: Josefin Sans;
+                    font-size: 20px;
+                    margin-right: 4px;
+                    transition: 0.3s;
+                    color: $paragrapColor;
+
+                    &:hover {
+                        color: black;
+                    }
+                }
+                .tag {
+                    color: $textColor;
+                    font-family: Josefin Sans;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 28px;
+    
+                    span {
+                        color: $paragrapColor;
+                        font-family: Josefin Sans;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 28px;
+                    }
+                }
+                .catagory {
+                    color: $textColor;
+                    font-family: Josefin Sans;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 28px;
+    
+                    span {
+                        color: $paragrapColor;
+                        font-family: Josefin Sans;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 28px;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+}
+#shop-tab{
+    
+    .jacket-nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .nav-item{
+            height: 60px;
+            background-color: #151A32;
+            
+            .product-description{
+                width: 300px;
+                height: 100%;
+                color: #fff;
+                text-align: center;
+                font-family: Josefin Sans;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 30px; 
+                &.active{
+
+                    background-color: $primaryColor;
+                    border-radius: 0;
+                }
+            } 
+            .customer-review{
+                width: 300px;
+                height: 100%;
+                color: #fff;
+                text-align: center;
+                font-family: Josefin Sans;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 30px; 
+                &.active{
+                    
+                    background-color: $primaryColor;
+                    border-radius: 0;
+                }
+            } 
+            .additional-info{
+                width: 300px;
+                height: 100%;
+                color: #fff;
+                text-align: center;
+                font-family: Josefin Sans;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 30px; 
+                &.active{
+                    
+                    background-color: $primaryColor;
+                    border-radius: 0;
+                }
+            } 
+        }
+    }
+    .tab-contant-area{
+        padding: 20px 15px;
+        p{
+            color:$paragrapColor;
+            text-align: justify;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px; 
+            margin-bottom: 20px;
+        }
+    }
+}
+#related-product {
+    .arrival-head{
+        color: var(--text-color, #11161E);
+        text-align: center;
+        font-family: Josefin Sans;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 46px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .arrows {
+        .left-arrow {
+            position: absolute;
+            top: 40%;
+            left: 0;
+            height: 50px;
+            width: 30px;
+            background-color: $iconColor;
+            opacity: 0.5;
+            color: #fff;
+            line-height: 50px;
+            font-size: 20px;
+            text-align: center;
+            transform: translateX(97%);
+        }
+
+        .right-arrow {
+            position: absolute;
+            top: 40%;
+            right: 0;
+            height: 50px;
+            width: 30px;
+            background-color: $iconColor;
+            opacity: 0.5;
+            color: #fff;
+            line-height: 50px;
+            font-size: 20px;
+            text-align: center;
+            transform: translateX(-97%);
+        }
+    }
+
+    .lotion {
+        padding: 0 15px;
+
+        .lotion-img {
+            position: relative;
+
+            .sale {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                background-color: $primaryColor;
+                padding: 0px 8px;
+                color: #FFF;
+                font-family: Josefin Sans;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 26px; 
+                
+            }
+
+            
+
+            &:hover img {
+                filter: brightness(.8) contrast(1.2);
+            }
+        }
+
+        .lotion-info {
+            padding: 24px 0;
+
+            p {
+                font-family: Josefin Sans;
+                font-size: 14px;
+                color: $paragrapColor;
+                margin-bottom: 5px;
+            }
+
+            h5 {
+                font-family: Josefin Sans;
+                font-size: 17px;
+                margin-bottom: 8px;
+                font-weight: 600;
+                line-height: 28px;
+            }
+
+            span {
+                color: $primaryColor;
+                font-size: 12px;
+                
+            }
+        }
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .counter-sec{
+            //     .quantity-arrow{
+            //         margin-top: 15px;
+            //         color: $arrivalpriceColor;    
+            //         .quantity-down{
+            //             width: 50px;
+            //             height: 50px;
+            //             background-color: transparent;
+            //             border: 1px solid $spacialBgColor;
+            //             @include customScreen (1000px , 1199px){
+            //                 width: 40px;
+            //                 height: 40px;
+            //               } 
+            //         } 
+            //         .quantity-up{
+            //             width: 50px;
+            //             height: 50px;
+            //             background-color: transparent;
+            //             border: 1px solid $spacialBgColor;
+            //             @include customScreen (1000px , 1199px){
+            //                 width: 40px;
+            //                 height: 40px;
+            //               } 
+            //         }
+            //         .output{
+                        
+                       
+            //         } 
+            //     }   
+            // }

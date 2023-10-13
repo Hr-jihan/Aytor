@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <!-- css link start -->
+    <link rel="stylesheet" href="./css/venobox.min.css">
+    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="stylesheet" href="./css/tingle.min.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/aytor.min.css">
+    <link rel="stylesheet" href="./css/responsive.min.css">
+    <!-- css link end -->
+</head>
+
+<body>
+  <!-- nav starts here  -->
+  <nav class="navbar navbar-expand-lg d-none d-lg-block ">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="./images&others/MainLogo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0 menulist">
+
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Shopes
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./shop-details.html" style="color:#FF6F61;">Shop - Details Style One</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Shop-Grid</a></li>
+              <li><a class="dropdown-item" href="#">Shop-Details</a></li>
+              <li><a class="dropdown-item" href="#">Compare</a></li>
+              <li><a class="dropdown-item" href="#">Cart</a></li>
+              <li><a class="dropdown-item" href="#">Checkout</a></li>
+              <li><a class="dropdown-item" href="#">Wishlist</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./about.html" style="color:#FF6F61;">About Us</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Features
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Blogs
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./blog.html" style="color:#FF6F61;">Blogs</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Blog - Classic</a></li>
+              <li><a class="dropdown-item" href="#">Blog - Classic With Sidebar</a></li>
+              <li><a class="dropdown-item" href="#">Blog - Details</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+        <div class="navicons">
+          <ul>
+            <li> <span><iconify-icon class="search-icon" icon="iconamoon:search-thin"></iconify-icon></span></li>
+            <li><a href="#"><iconify-icon icon="clarity:avatar-line"></iconify-icon></a></li>
+            <li><a href="#"><iconify-icon icon="ph:heart-light"></iconify-icon></a></li>
+            <li><a href="#"><iconify-icon icon="teenyicons:bag-outline"></iconify-icon> <span>0</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- sm nav starts  -->
+  <nav class="navbar navbar-sm d-lg-none">
+    <div class="container">
+      <div class="row w-100 align-items-center">
+        <div class="col-3 ">
+
+          <button class="sm-nav-menu-icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+            aria-controls="navbarSupportedContent">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+        <div class="col-6 text-center"> <img src="./images&others/MainLogo.png" alt=""></div>
+        <div class="col-3 text-end">
+          <div class="navicons">
+            <ul>
+              <li><a href="#"><iconify-icon icon="teenyicons:bag-outline"></iconify-icon> <span>0</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </nav>
+  <!-- offcanvas slide  -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <img src="./images&others/MainLogo.png" alt="">
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="sm-search">
+      <div class="container">
+
+        <div class="row height d-flex justify-content-center align-items-center">
+
+          <div class="">
+
+            <div class="form">
+              <i class="fa fa-search"></i>
+              <input type="text" class="form-control form-input" placeholder="Search anything...">
+              <span class="left-pan"><i class="fa fa-microphone"></i></span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="offcanvas-body">
+
+
+      <ul class="sm-nav-list">
+        <li><a href="./index.html">Home</a></li>
+        <li>
+          <a href="#" class=" dropdown-toggle" data-bs-toggle="dropdown"> Shop</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./shop-details.html" style="color:#FF6F61;">Shop - Details Style One</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Shop-Grid</a></li>
+              <li><a class="dropdown-item" href="#">Shop-Details</a></li>
+              <li><a class="dropdown-item" href="#">Compare</a></li>
+              <li><a class="dropdown-item" href="#">Cart</a></li>
+              <li><a class="dropdown-item" href="#">Checkout</a></li>
+              <li><a class="dropdown-item" href="#">Wishlist</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class=" dropdown-toggle" data-bs-toggle="dropdown"> Pages</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./about.html" style="color:#FF6F61;">About Us</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class=" dropdown-toggle" data-bs-toggle="dropdown"> Features</a>
+        </li>
+        <li>
+          <a href="#" class=" dropdown-toggle" data-bs-toggle="dropdown"> blogs</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./blog.html" style="color:#FF6F61;">Blogs</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Blog - Classic</a></li>
+              <li><a class="dropdown-item" href="#">Blog - Classic With Sidebar</a></li>
+              <li><a class="dropdown-item" href="#">Blog - Details</a></li>
+          </ul>
+        </li>
+        <li><a class="nav-link" href="./contact.html">Contact</a></li>
+
+
+
+      </ul>
+
+    </div>
+  </div>
+  <!-- nav ends here  -->
+    <!-- banner starts -->
+    <section id="about-banner" style="background-image: url(./images&others/about-img/banner.jpg);">
+        <div class="container h-100">
+            <div class="about-banner-info h-100">
+                <h2 data-aos="fade-right">About Us</h2>
+                <p data-aos="fade-left">Home / About Us</p>
+            </div>
+        </div>
+
+    </section>
+    <section id="learn-aytor">
+        <div class="container">
+            <div class="row  for-background" data-aos="fade-right" style="background-image: url(./images&others/about-img/learn-mask.png);">
+                <div class="learn-aytor-img col-lg-6"><img class=" " src="./images&others/about-img/lear5n-aytor-img.png" alt=""></div>
+                <div class=" learn-aytor-info col-lg-6">
+                    <h2>Learn About Aetor Shop</h2>
+                    <p>Interactively underwhelm effective relationships whereas team driven paradigms. Uniquely impact impactful meta-services vis -a-vis fully tested best practices. Appropriately e-enable fully.</p> <hr>
+                    <ul>
+                        <li>
+                            <p><span><img src="./images&others/about-img/true-mark.svg" alt=""></span>Assertively customize robust potentialities and economical</p>
+                        </li>
+                        <li>
+                            <p><span><img src="./images&others/about-img/true-mark.svg" alt=""></span>Assertively customize robust potentialities and economical</p>
+                        </li>
+                        <li>
+                            <p><span><img src="./images&others/about-img/true-mark.svg" alt=""></span>Assertively customize robust potentialities and economical</p>
+                        </li>
+                    </ul>
+                    <a href="#">Discover More <span><i class="fa-solid fa-arrow-right-long"></i><span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="aytor-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 about-info" data-aos="fade-right">
+                    <div class="logo">
+                        <span><img src="./images&others/about-img/package 1 (Traced).svg" alt=""></span>
+                    </div>
+                    <div class="info">
+                        <h2>22.3k</h2>
+                        <p>Products for sale</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6  about-info" data-aos="fade-up">
+                    <div class="logo">
+                        <img src="./images&others/about-img/shop 1 (Traced).svg" alt="">
+                    </div>
+                    <div class="info">
+                        <h2>22.3k</h2>
+                        <p>Products for sale</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6  about-info" data-aos="fade-up">
+                    <div class="logo">
+                        <img src="./images&others/about-img/money 1 (Traced).svg" alt="">
+                    </div>
+                    <div class="info">
+                        <h2>22.3k</h2>
+                        <p>Products for sale</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6  about-info" data-aos="fade-left">
+                    <div class="logo">
+                        <img src="./images&others/about-img/shopping-bag 1 (Traced).svg" alt="">
+                    </div>
+                    <div class="info">
+                        <h2>22.3k</h2>
+                        <p>Products for sale</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="our-story">
+        <div class="container h-100">
+          <div class="row align-items-center h-100">
+            <div class="special-offers-info col-lg-5 col-md-12">
+              <h2>Our Story</h2>
+              <p>Synergistically pontificate focused services whereas intuitive leadership. Competently predominate ubiquitous services rather than client-centric scenarios. Distinctively mesh B2C benefits for superior customer service. Interactively e-enable inexpensive total linkage without quality materials. Phosfluorescently negotiate.</p>
+                <p>Professionally exploit user-centric technology for seamless solutions. Objectively morph unique strategic theme areas without cross functional mindshare. Synergistically aggregate adaptive functionalities rather than enterprise-wide experiences. Completely maintain.</p>
+            </div>
+            <div class="special-offers-img col-lg-7 col-md-12">
+              <div class="video-part">
+                <img src="./images&others/special-offers-img.png" alt="">
+                <div class="video-btn">
+                  <a class="iframe-video" data-vbtype="iframe" href="https://youtu.be/N26Btv6kQRw"><span><i
+                        class="fa-solid fa-play"></i></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 logo-info">
+                    <div class="row">
+                        <div class="col-4 feature-logo">
+                            <a href="#"><i class="fa-solid fa-truck"></i></a>
+                        </div>
+                        <div class="col-8 feature-info">
+                            <h5>FREE SHIPING</h5>
+                            <p>On all orders over <span> $99.</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 logo-info">
+                    <div class="row">
+                        <div class="col-4 feature-logo">
+                            <a href="#"><i class="fa-solid fa-truck"></i></a>
+                        </div>
+                        <div class="col-8 feature-info">
+                            <h5>FREE SHIPING</h5>
+                            <p>On all orders over <span> $99.</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 logo-info">
+                    <div class="row">
+                        <div class="col-4 feature-logo">
+                            <a href="#"><i class="fa-solid fa-truck"></i></a>
+                        </div>
+                        <div class="col-8 feature-info">
+                            <h5>FREE SHIPING</h5>
+                            <p>On all orders over <span> $99.</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 logo-info" style="border: none;">
+                    <div class="row">
+                        <div class="col-4 feature-logo">
+                            <a href="#"><i class="fa-solid fa-truck"></i></a>
+                        </div>
+                        <div class="col-8 feature-info">
+                            <h5>FREE SHIPING</h5>
+                            <p>On all orders over <span> $99.</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <section id="leadership-expart">
+        <div class="container position-relative">
+          <h2 class="arrival-head">Leadership Expart Team</h2>
+          <div class="new-product-slider w-100">
+            <div class="lotion">
+              <div class="lotion-img">
+                <img class="w-100" src="./images&others/about-img/expart 1.jpg" alt="">
+              </div>
+              <div class="lotion-info ">
+                <h4>Michel Richard</h4>
+                <p>Founder</p>
+                <span>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a><a href="#"> <i class="fa-brands fa-twitter"></i></a> <a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"> <i class="fa-brands fa-pinterest-p"></i></a>
+                </span>
+              </div>
+            </div>
+            <div class="lotion">
+              <div class="lotion-img">
+                <img class="w-100 h-100" src="./images&others/about-img/expart-2.jpg" alt="">
+              </div>
+              <div class="lotion-info ">
+                <h4>Michel Richard</h4>
+                <p>Founder</p>
+                <span>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a><a href="#"> <i class="fa-brands fa-twitter"></i></a> <a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"> <i class="fa-brands fa-pinterest-p"></i></a>
+                </span>
+              </div>
+            </div>
+            <div class="lotion">
+              <div class="lotion-img">
+                <img class="w-100" src="./images&others/about-img/expart 3.jpg" alt="">
+              </div>
+              <div class="lotion-info ">
+                <h4>Michel Richard</h4>
+                <p>Founder</p>
+                <span>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a><a href="#"> <i class="fa-brands fa-twitter"></i></a> <a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"> <i class="fa-brands fa-pinterest-p"></i></a>
+                </span>
+              </div>
+            </div>
+            <div class="lotion">
+              <div class="lotion-img">
+                <img class="w-100" src="./images&others/about-img/expart 4.jpg" alt="">
+              </div>
+              <div class="lotion-info ">
+                <h4>Michel Richard</h4>
+                <p>Founder</p>
+                <span>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a><a href="#"> <i class="fa-brands fa-twitter"></i></a> <a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"> <i class="fa-brands fa-pinterest-p"></i></a>
+                </span>
+              </div>
+            </div>
+    
+          </div>
+          <div class="arrows">
+            <div class="left-arrow" id="product-slider-left"><i class="fa-solid fa-angle-left"></i></div>
+            <div class="right-arrow" id="product-slider-right"><i class="fa-solid fa-angle-right"></i></div>
+          </div>
+        </div>
+    </section>
+    <section id="customar" class="">
+        <div class="container">
+
+            <div class="customar-slide">
+                <div class="customar-info">
+                    <div class="customer-style"><img src="./images&others/about-img/customar-style-logo.png" alt=""></div>
+                    <img class="customar-img" src="./images&others/about-img/customar-2.jpg" alt="">
+                    <p>Distinctively revolutionize functional sources rather than cutting-edge interfaces. Appropriately
+                        productize next-generation infomediaries without interoperable e-business. Progressively empower.</p>
+                    <h4>Alexzender Markos</h4>
+                    <span>Customer</span>
+                    <div class="circle-1" ><img src="./images&others/about-img/circle-1.png" alt=""></div>
+                    <div class="circle-2"><img src="./images&others/about-img/circle-2.png" alt=""></div>
+                    <div class="circle-3"><img src="./images&others/about-img/circle-3.png" alt=""></div>
+                    <div class="circle-4"><img src="./images&others/about-img/circle-4.png" alt=""></div>
+                    <div class="circle-a "><img src="./images&others/about-img/circle-1.png" alt=""></div>
+                    <div class="circle-b" ><img src="./images&others/about-img/circle-2.png" alt=""></div>
+                    <div class="circle-c" ><img src="./images&others/about-img/circle-3.png" alt=""></div>
+                    <div class="circle-d" ><img src="./images&others/about-img/circle-4.png" alt=""></div>
+                </div>
+                <div class="customar-info">
+                    <div class="customer-style"><img src="./images&others/about-img/customar-style-logo.png" alt=""></div>
+                    <img class="customar-img" src="./images&others/about-img/customar-1.jpg" alt="">
+                    <p>Distinctively revolutionize functional sources rather than cutting-edge interfaces. Appropriately
+                        productize next-generation infomediaries without interoperable e-business. Progressively empower.</p>
+                    <h4>Alexzender Markos</h4>
+                    <span>Customer</span>
+                    <div class="circle-1" ><img src="./images&others/about-img/circle-1.png" alt=""></div>
+                    <div class="circle-2"><img src="./images&others/about-img/circle-2.png" alt=""></div>
+                    <div class="circle-3"><img src="./images&others/about-img/circle-3.png" alt=""></div>
+                    <div class="circle-4"><img src="./images&others/about-img/circle-4.png" alt=""></div>
+                    <div class="circle-a "><img src="./images&others/about-img/circle-1.png" alt=""></div>
+                    <div class="circle-b" ><img src="./images&others/about-img/circle-2.png" alt=""></div>
+                    <div class="circle-c" ><img src="./images&others/about-img/circle-3.png" alt=""></div>
+                    <div class="circle-d" ><img src="./images&others/about-img/circle-4.png" alt=""></div>
+                </div>
+                <div class="customar-info">
+                    <div class="customer-style"><img src="./images&others/about-img/customar-style-logo.png" alt=""></div>
+                    <img class="customar-img" src="./images&others/about-img/customar-3.jpg" alt="">
+                    <p>Distinctively revolutionize functional sources rather than cutting-edge interfaces. Appropriately
+                        productize next-generation infomediaries without interoperable e-business. Progressively empower.</p>
+                    <h4>Alexzender Markos</h4>
+                    <span>Customer</span>
+                    <div class="circle-1" ><img src="./images&others/about-img/circle-1.png" alt=""></div>
+                    <div class="circle-2"><img src="./images&others/about-img/circle-2.png" alt=""></div>
+                    <div class="circle-3"><img src="./images&others/about-img/circle-3.png" alt=""></div>
+                    <div class="circle-4"><img src="./images&others/about-img/circle-4.png" alt=""></div>
+                    <div class="circle-a "><img src="./images&others/about-img/circle-1.png" alt=""></div>
+                    <div class="circle-b" ><img src="./images&others/about-img/circle-2.png" alt=""></div>
+                    <div class="circle-c" ><img src="./images&others/about-img/circle-3.png" alt=""></div>
+                    <div class="circle-d" ><img src="./images&others/about-img/circle-4.png" alt=""></div>
+                    <!-- <div class="circle-1" data-aos="fade-down"><img src="./images&others/about-img/circle-1.png" alt=""></div>
+                    <div class="circle-2"data-aos="fade-right"><img src="./images&others/about-img/circle-2.png" alt=""></div>
+                    <div class="circle-3"data-aos="fade-right"><img src="./images&others/about-img/circle-3.png" alt=""></div>
+                    <div class="circle-4"data-aos="fade-up"><img src="./images&others/about-img/circle-4.png" alt=""></div>
+                    <div class="circle-a "data-aos="fade-down"><img src="./images&others/about-img/circle-1.png" alt=""></div>
+                    <div class="circle-b" data-aos="fade-left"><img src="./images&others/about-img/circle-2.png" alt=""></div>
+                    <div class="circle-c" data-aos="fade-left"><img src="./images&others/about-img/circle-3.png" alt=""></div>
+                    <div class="circle-d" data-aos="fade-left"><img src="./images&others/about-img/circle-4.png" alt=""></div> -->
+                
+                </div>
+    
+            </div>
+        </div>
+    
+    </section>
+    <section id="aytor-instagram">
+        <div class="container position-relative">
+          <h2 class="arrival-head">Aytor Instagram</h2>
+          <div class="new-product-slider w-100">
+            <div class="lotion">
+              <div class="lotion-img">
+                <img class="w-100" src="./images&others/about-img/insta-page1.jpg" alt="">
+                <div class="insta-overlay">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="lotion">
+              <div class="lotion-img">
+                <img class="w-100 h-100" src="./images&others/about-img/insta-page2.jpg" alt="">
+                <div class="insta-overlay">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="lotion">
+              <div class="lotion-img">
+                <img class="w-100" src="./images&others/about-img/insta-page3.jpg" alt="">
+                <div class="insta-overlay">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="lotion">
+              <div class="lotion-img">
+                <img class="w-100" src="./images&others/about-img/insta-page-4.jpg" alt="">
+                <div class="insta-overlay">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <section id="about-footer">
+        <div class="container">
+            <div class="row " style="margin-bottom: 80px;">
+                <div class="col-6 footer-info1 ">
+                    <h2>Subscribe to Our Newsletter!</h2>
+                    <p>Authoritatively morph 24/7 potentialities with error-free partnerships. Objectively engineer
+                        multimedia.</p>
+                </div>
+                <div class="col-6 footer-search-box">
+                    <input type="search" placeholder="Enter your Email......"><button>Search</button>
+                </div>
+            </div>
+            <hr style="opacity: 0.10000000149011612; background: #151A32;">
+    
+    
+            <div class="fotter-2nd-part">
+                <div class="row " style="margin-top: 50px;">
+                    <div class="col-12 col-md-12 col-sm-12 col-lg-3 logo-part">
+                        <img src="./images&others/MainLogo.png" alt="">
+                        <p>Progressively optimize effective ideas before turnkey process improvements. Proactively
+                            disseminate</p>
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"> <i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"> <i class="fa-brands fa-pinterest-p"></i></a></li>
+    
+                        </ul>
+                    </div>
+                    <div class="col-6  col-md-6 col-sm-6 col-lg-2 my-account">
+                        <h2>Account</h2>
+                        <ul>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> My Account </a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> View Cart </a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Wishlist </a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Compare</a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> New Products</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-6 col-sm-6 col-lg-2 my-account">
+                        <h2>support</h2>
+                        <ul>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Help</a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Contact Us </a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Feedback </a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Customer Service</a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Store Locations</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-6 col-sm-6 col-lg-2 my-account">
+                        <h2>Shop</h2>
+                        <ul>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Men’s Shopping</a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Women’s Shopping</a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Kids’ Shopping</a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Discounts</a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> New Arrivels</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-6 col-sm-6 col-lg-3 contact">
+                        <h2>Contact Us</h2>
+                        <div class="row location">
+                            <div class="col-2">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="col-10">
+                                <p>
+                                        2751 S Parker Rd, Aurora, CO 80014,
+                                        United States
+                                </p>
+                            </div>
+                        </div>
+                        <a href="tel:18008660286"> <span style="margin-right: 25px;"><i
+                                    class="fa-solid fa-phone"></i></span>+18008660286</a> <br>
+                        <div class="row location">
+                            <div class="col-2">
+                                <a href="mailto:aetor.info@gmail.com"><i class="fa-solid fa-envelope"></i> </a>
+                            </div>
+                            <div class="col-10">
+                                <a href="mailto:aetor.info@gmail.com"> aetor.info@gmail.com</a>
+                                <a href="mailto:aetor.info@gmail.com">info@aetor.com</a>
+                            </div>
+                        </div>
+                        <!-- <a href="mail:aetor.info@gmail.com">  <span><i class="fa-solid fa-envelope"></i> </span></a> -->
+                    </div>
+                </div>
+            </div>
+    
+            <!-- footer 2nd part for md or sm device  -->
+            <!-- <div class="footer-tab d-lg-none">
+                <ul class="nav nav-pills mb-3 w-100  footer-tab-items" id="pills-tab" role="tablist">
+                    <li class="nav-item tab-option" role="presentation">
+                      <button class="nav-link active " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-aytor" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Aytor</button>
+                    </li>
+                    
+                    <li class="nav-item  tab-option" role="presentation">
+                      <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-account" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Account</button>
+                    </li>
+                    <li class="nav-item  tab-option" role="presentation">
+                      <button class="nav-link " id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-support" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Support</button>
+                    </li>
+                    <li class="nav-item  tab-option" role="presentation">
+                      <button class="nav-link additional-info" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-shop" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Shop</button>
+                    </li>
+                    <li class="nav-item  tab-option" role="presentation">
+                      <button class="nav-link additional-info" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+                    </li>
+                </ul>
+                <div class="tab-content tab-contant-area" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-aytor" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                            <img src="./images&others/MainLogo.png" alt="">
+                            <p>Progressively optimize effective ideas before turnkey process improvements. Proactively
+                                disseminate</p>
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"> <i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"> <i class="fa-brands fa-pinterest-p"></i></a></li>
+        
+                            </ul>
+                    </div>
+                    <div class="tab-pane fade" id="pills-account" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                        <ul>
+                            <li><a href="#"> My Account <span><i class="fa-solid fa-angle-right"></i></span></a></li>
+                            <li><a href="#"> View Cart <span><i class="fa-solid fa-angle-right"></i></span></a></li>
+                            <li><a href="#"> Wish list <span><i class="fa-solid fa-angle-right"></i></span> </a></li>
+                            <li><a href="#"> Compare <span><i class="fa-solid fa-angle-right"></i></span></a></li>
+                            <li><a href="#"> N Products <span><i class="fa-solid fa-angle-right"></i></span></a></li>
+                        </ul> 
+                    </div>
+                    <div class="tab-pane fade" id="pills-support" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                       <ul>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Help</a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Contact Us </a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Feedback </a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Service</a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Locations</a></li>
+                        </ul> 
+                    </div>
+                    <div class="tab-pane fade" id="pills-shop" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                        <ul>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> M Shopping</a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> F Shopping</a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Kids’ Shopping</a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Discounts</a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> New Arrivels</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade " id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                        <div class=" location col-4  ">
+                            <div class="location-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="location-name">
+                                <p>
+                                        2751 S Parker Rd, Aurora, CO 80014,
+                                        United States
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mobile-number col-4  ">
+                            <span><i class="fa-solid fa-phone"></i></span> <br>
+                            <a href="tel:18008660286"> +18008660286</a>
+                        </div>
+                         <br>
+                        <div class="email-ac col-4 ">
+                            
+                                <a href="mailto:aetor.info@gmail.com"><i class="fa-solid fa-envelope"></i> </a> <br>
+                           
+                                <a href="mailto:aetor.info@gmail.com"> aetor.info@gmail.com</a> <br>
+                                <a href="mailto:aetor.info@gmail.com">info@aetor.com</a>
+                        </div>
+                    </div>
+                  </div>
+            </div>     -->
+        </div>
+    
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- js link start  -->
+
+    <script src="./js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="./js/code.iconify.design_iconify-icon_1.0.7_iconify-icon.min.js"></script>
+    <script src="./js/tingle.min.js"></script>
+    <script src="./js/venobox.min.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="https://kit.fontawesome.com/4b8f754f30.js" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery.countdown.min.js"></script>
+    <script src="./js/aytor.js"></script>
+    <!-- js link end  -->
+</body>
+
+</html>

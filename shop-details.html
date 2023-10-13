@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <!-- css link start -->
+    <link rel="stylesheet" href="./css/venobox.min.css">
+    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="stylesheet" href="./css/tingle.min.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/aytor.min.css">
+    <link rel="stylesheet" href="./css/responsive.min.css">
+    <!-- css link end -->
+</head>
+<body>
+    <!-- nav starts here  -->
+      <!-- nav starts here  -->
+  <nav class="navbar navbar-expand-lg d-none d-lg-block ">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="./images&others/MainLogo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0 menulist">
+
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Shopes
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./shop-details.html" style="color:#FF6F61;">Shop - Details Style One</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Shop-Grid</a></li>
+              <li><a class="dropdown-item" href="#">Shop-Details</a></li>
+              <li><a class="dropdown-item" href="#">Compare</a></li>
+              <li><a class="dropdown-item" href="#">Cart</a></li>
+              <li><a class="dropdown-item" href="#">Checkout</a></li>
+              <li><a class="dropdown-item" href="#">Wishlist</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./about.html" style="color:#FF6F61;">About Us</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Features
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Blogs
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./blog.html" style="color:#FF6F61;">Blogs</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Blog - Classic</a></li>
+              <li><a class="dropdown-item" href="#">Blog - Classic With Sidebar</a></li>
+              <li><a class="dropdown-item" href="#">Blog - Details</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+        <div class="navicons">
+          <ul>
+            <li> <span><iconify-icon class="search-icon" icon="iconamoon:search-thin"></iconify-icon></span></li>
+            <li><a href="#"><iconify-icon icon="clarity:avatar-line"></iconify-icon></a></li>
+            <li><a href="#"><iconify-icon icon="ph:heart-light"></iconify-icon></a></li>
+            <li><a href="#"><iconify-icon icon="teenyicons:bag-outline"></iconify-icon> <span>0</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- sm nav starts  -->
+  <nav class="navbar navbar-sm d-lg-none">
+    <div class="container">
+      <div class="row w-100 align-items-center">
+        <div class="col-3 ">
+
+          <button class="sm-nav-menu-icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+            aria-controls="navbarSupportedContent">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+        <div class="col-6 text-center"> <img src="./images&others/MainLogo.png" alt=""></div>
+        <div class="col-3 text-end">
+          <div class="navicons">
+            <ul>
+              <li><a href="#"><iconify-icon icon="teenyicons:bag-outline"></iconify-icon> <span>0</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </nav>
+  <!-- offcanvas slide  -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <img src="./images&others/MainLogo.png" alt="">
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="sm-search">
+      <div class="container">
+
+        <div class="row height d-flex justify-content-center align-items-center">
+
+          <div class="">
+
+            <div class="form">
+              <i class="fa fa-search"></i>
+              <input type="text" class="form-control form-input" placeholder="Search anything...">
+              <span class="left-pan"><i class="fa fa-microphone"></i></span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="offcanvas-body">
+
+
+      <ul class="sm-nav-list">
+        <li><a href="./index.html">Home</a></li>
+        <li>
+          <a href="#" class=" dropdown-toggle" data-bs-toggle="dropdown"> Shop</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./shop-details.html" style="color:#FF6F61;">Shop - Details Style One</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Shop-Grid</a></li>
+              <li><a class="dropdown-item" href="#">Shop-Details</a></li>
+              <li><a class="dropdown-item" href="#">Compare</a></li>
+              <li><a class="dropdown-item" href="#">Cart</a></li>
+              <li><a class="dropdown-item" href="#">Checkout</a></li>
+              <li><a class="dropdown-item" href="#">Wishlist</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class=" dropdown-toggle" data-bs-toggle="dropdown"> Pages</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./about.html" style="color:#FF6F61;">About Us</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class=" dropdown-toggle" data-bs-toggle="dropdown"> Features</a>
+        </li>
+        <li>
+          <a href="#" class=" dropdown-toggle" data-bs-toggle="dropdown"> blogs</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./blog.html" style="color:#FF6F61;">Blogs</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Blog - Classic</a></li>
+              <li><a class="dropdown-item" href="#">Blog - Classic With Sidebar</a></li>
+              <li><a class="dropdown-item" href="#">Blog - Details</a></li>
+          </ul>
+        </li>
+        <li><a class="nav-link" href="./contact.html">Contact</a></li>
+
+
+
+      </ul>
+
+    </div>
+  </div>
+  <!-- nav ends here  -->
+
+
+        <!-- banner starts -->
+    <section id="details-banner" style="background-image: url(./images&others/shop-details-page/banner.jpg);">
+        <div class="container h-100">
+            <div class="about-banner-info h-100">
+                <h2 data-aos="fade-right">Shop - Details Style One</h2>
+                <p data-aos="fade-left">Home  /  Shop</p>
+            </div>
+        </div>
+
+    </section>
+    <!--- jackets section start  --->
+    <section id="jacket">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-sm-12 col-lg-6 jacket-slider">
+                    <div class="main-slider">
+                        <img src="./images&others/shop-details-page/jacket-1.jpg" alt="">
+                        <img src="./images&others/shop-details-page/jacket-2.jpg" alt="">
+                        <img src="./images&others/shop-details-page/jacket-3.jpg" alt="">
+                        <img src="./images&others/shop-details-page/jacket-4.jpg" alt="">
+                        <img src="./images&others/shop-details-page/jacket-5.jpg" alt="">
+                        <img src="./images&others/shop-details-page/jacket-6.jpg" alt="">
+                    </div>
+                    <div class="sub-slider">
+                        <img src="./images&others/shop-details-page/jacket-1.jpg" alt="">
+                        <img src="./images&others/shop-details-page/jacket-2.jpg" alt="">
+                        <img src="./images&others/shop-details-page/jacket-3.jpg" alt="">
+                        <img src="./images&others/shop-details-page/jacket-4.jpg" alt="">
+                        <img src="./images&others/shop-details-page/jacket-5.jpg" alt="">
+                        <img src="./images&others/shop-details-page/jacket-6.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-sm-12 col-lg-6 jacket-info">
+                    <h2>Leather Jackets</h2>
+                    <div class="row star-sec">
+                        <div class="col-4">
+                            <p> 5.00   <Span> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> </Span></p>
+                        </div>
+                        <div class="col-6">
+                            <p>(5 Customer Review)</p>
+                        </div>
+                    </div>
+                    <div class="row money-sec">
+                        <h2 class="col-3">$125.65 </h2>
+                         <p class="col-4">$150.65</p> 
+                    </div>
+                    <p>Quickly productivate holistic systems after 24/365 e-commerce. Continually synthesize superior catalysts for change via high standards in leadership skills. Collaboratively evisculate distributed functionalities rather than timely methods of empowerment.</p> 
+                    <hr>
+                    <div class="row size-sec w-100">
+                        <div class="col-2"><h5> Size: </h5></div>
+                        <div class="col-10">
+                            <select name="" id="" class="w-100">
+                                <option value="" disabled selected>44</option>
+                                <option value="">26</option>
+                                <option value="">27</option>
+                                <option value="">28</option>
+                                <option value="">29</option>
+                                <option value="">30</option>
+                                <option value="">31</option>
+                                <option value="">32</option>
+                                <option value="">33</option>
+                                <option value="">34</option>
+                                <option value="">35</option>
+                                <option value="">36</option>
+                                <option value="">37</option>
+                                <option value="">38</option>
+                                <option value="">39</option>
+                                <option value="">40</option>
+                                <option value="">41</option>
+                                <option value="">42</option>
+                                <option value="">43</option>
+                                <option value="">44</option>
+                                <option value="">45</option>
+                                <option value="">46</option>
+                                <option value="">47</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row color-sec w-100">
+                        <div class="col-2"><h5>Color:</h5></div>
+                        <div class="col-10">
+                            <select name="" id="" class="w-100">
+                                <option value="" disabled selected>Orange</option>
+                                <option value="">Red</option>
+                                <option value="">Blue</option>
+                                <option value="">Green</option>
+                                <option value="">Pink</option>
+                                <option value="">Yellow</option>
+                                <option value="">White</option>
+                                <option value="">Black</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row counter-sec">
+                        <div class="quantity-arrow col-4 ">
+                            <button class="quantity-down"><i class="fa-solid fa-minus"></i></button>
+                            <input  type="text" class="output" value="0" style="width: 50px; height: 50px;">
+                            <button class="quantity-up"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                        <div class="col-4 cart ">
+                            <a href="#"> <span><i class="fa-solid fa-cart-shopping"></i></span> Add To Cart</a>
+                        </div>
+                        <div class="col-4 cart-icon">
+                            <a href="#"><i class="fa-solid fa-heart"></i></a> <a href="#"><i class="fa-solid fa-eye"></i></a> <a href="#"><i class="fa-solid fa-user-tie"></i></a>
+                        </div>
+                    </div>
+                        <hr>
+                    <div class="row info">
+                            <div class="col-5 col-sm-9 col-md-9 col-lg-8">
+                                
+                                <h5>SKU: <span>W0243</span></h5> 
+                            </div>
+                            <div class="col-5 col-sm-3 col-md-3 col-lg-4">
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a> <a href="#"><i class="fa-brands fa-twitter"></i></a> <a href="#"><i class="fa-brands fa-instagram"></i></a> <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                            </div>
+                            <h5 class="tag">Tags: <span> Hot, Women</span></h5>
+                            <h5 class="catagory">Category: <span>  Dress, T-Shirt, Mini Scut</span></h5>
+
+                        </div>
+                        
+                </div>   
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- shop-tab starts here  -->
+     <section id="shop-tab">
+        <div class="container">
+            <ul class="nav nav-pills mb-3 w-100 me-auto jacket-nav" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active product-description" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Product Description</button>
+                </li>
+                
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link customer-review" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Customer Review</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link additional-info" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Additional Information</button>
+                </li>
+            </ul>
+            <div class="tab-content tab-contant-area" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                    <p>
+                        Conveniently build adaptive users with front-end human capital. Appropriately unleash team building technology for goal-oriented paradigms. Dynamically generate interoperable e-business vis-a-vis goal-oriented value. Completely pursue fully tested content whereas multifunctional core competencies. Progressively scale team driven process improvements before premier functionalities. Holisticly 
+                        cultivate intermandated methodologies rather than virtual technology. Monotonectally target interactive synergy without process-centric e-markets. Holisticly pursue enterprise-wide leadership skills for enterprise leadership. Collaboratively underwhelm standardized expertise after effective bandwidth. Conveniently productivate holistic collaboration and idea-sharing rather than granular strategic theme areas.
+                     </p> 
+                     <p class="d-none d-lg-block d-md-block"> 
+                        Enthusiastically aggregate ethical systems for standardized mindshare. Energistically target resource maximizing leadership skills without backward-compatible action items. Credibly impact alternative expertise vis-a-vis economically sound results. Dynamically synergize empowered benefits through functional partnerships. Authoritatively empower prospective infomediaries for interactive content.
+                        Synergistically embrace 2.0 paradigms through professional intellectual capital. Interactively strategize parallel growth strategies without out-of-the-box web services. Assertively reinvent installed base.
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                    <p>
+                        Conveniently build adaptive users with front-end human capital. Appropriately unleash team building technology for goal-oriented paradigms. Dynamically generate interoperable e-business vis-a-vis goal-oriented value. Completely pursue fully tested content whereas multifunctional core competencies. Progressively scale team driven process improvements before premier functionalities. Holisticly 
+                        cultivate intermandated methodologies rather than virtual technology. Monotonectally target interactive synergy without process-centric e-markets. Holisticly pursue enterprise-wide leadership skills for enterprise leadership. Collaboratively underwhelm standardized expertise after effective bandwidth. Conveniently productivate holistic collaboration and idea-sharing rather than granular strategic theme areas.
+                        Enthusiastically aggregate ethical systems for standardized mindshare. Energistically target resource maximizing leadership skills without backward-compatible action items. Credibly impact alternative expertise vis-a-vis economically sound results. Dynamically synergize empowered benefits through functional partnerships. Authoritatively empower prospective infomediaries for interactive content.
+                        Synergistically embrace 2.0 paradigms through professional intellectual capital. Interactively strategize parallel growth strategies without out-of-the-box web services. Assertively reinvent installed base.
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                    <p>
+                        Conveniently build adaptive users with front-end human capital. Appropriately unleash team building technology for goal-oriented paradigms. Dynamically generate interoperable e-business vis-a-vis goal-oriented value. Completely pursue fully tested content whereas multifunctional core competencies. Progressively scale team driven process improvements before premier functionalities. Holisticly 
+                        cultivate intermandated methodologies rather than virtual technology. Monotonectally target interactive synergy without process-centric e-markets. Holisticly pursue enterprise-wide leadership skills for enterprise leadership. Collaboratively underwhelm standardized expertise after effective bandwidth. Conveniently productivate holistic collaboration and idea-sharing rather than granular strategic theme areas.
+                        Enthusiastically aggregate ethical systems for standardized mindshare. Energistically target resource maximizing leadership skills without backward-compatible action items. Credibly impact alternative expertise vis-a-vis economically sound results. Dynamically synergize empowered benefits through functional partnerships. Authoritatively empower prospective infomediaries for interactive content.
+                        Synergistically embrace 2.0 paradigms through professional intellectual capital. Interactively strategize parallel growth strategies without out-of-the-box web services. Assertively reinvent installed base.
+                    </p>
+                </div>
+              </div>
+        </div>
+     </section>
+     <!-- Releted Products start here  -->
+     <section id="related-product">
+        <div class="container position-relative">
+          <h2 class="arrival-head">Related Products</h2>
+          <div class="new-product-slider w-100">
+            <div class="lotion">
+              <div class="lotion-img">
+                <img class="w-100" src="./images&others/lotion.png" alt="">
+                <div class="sale">
+                  <span>New</span>
+                </div>
+                </div>
+              <div class="lotion-info row ">
+                <div class="col-6">
+                    <h5>Baseball Cap</h5>
+                    <p>$150.65</p>
+                </div>
+                <div class="col-6">
+                    <span>
+                      <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+                    </span>
+                </div>
+              </div>
+            </div>
+            <div class="lotion">
+              <div class="lotion-img">
+                <img class="w-100" src="./images&others/cream.png" alt="">
+                
+              </div>
+              <div class="lotion-info row ">
+                <div class="col-6">
+                    <h5>Baseball Cap</h5>
+                    <p>$150.65</p>
+                </div>
+                <div class="col-6">
+                    <span>
+                      <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+                    </span>
+                </div>
+              </div>
+            </div>
+            <div class="lotion">
+              <div class="lotion-img">
+                <img class="w-100" src="./images&others/gel.png" alt="">
+                <div class="sale">
+                  <span>New</span>
+                </div>
+            
+              </div>
+              <div class="lotion-info row ">
+                <div class="col-6">
+                    <h5>Baseball Cap</h5>
+                    <p>$150.65</p>
+                </div>
+                <div class="col-6">
+                    <span>
+                      <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+                    </span>
+                </div>
+              </div>
+            </div>
+            <div class="lotion">
+              <div class="lotion-img">
+                <img class="w-100" src="./images&others/powder.png" alt="">
+                <div class="sale">
+                  <span>New</span>
+                </div>
+                
+              </div>
+              <div class="lotion-info row ">
+                <div class="col-6">
+                    <h5>Baseball Cap</h5>
+                    <p>$150.65</p>
+                </div>
+                <div class="col-6">
+                    <span>
+                      <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                        class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+                    </span>
+                </div>
+              </div>
+            </div>
+            <div class="lotion">
+              <div class="lotion-img">
+                <img class="w-100" src="./images&others/lotion.png" alt="">
+                <div class="sale">
+                  <span>New</span>
+                </div>
+                
+              </div>
+              <div class="lotion-info ">
+                <p>$150.65</p>
+                <h5>Lotion Shower gel</h5>
+                <span>
+                  <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                    class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+                </span>
+              </div>
+            </div>
+            <div class="lotion">
+              <div class="lotion-img">
+                <img class="w-100" src="./images&others/cream.png" alt="">
+                <div class="sale">
+                  <span>New</span>
+                </div>
+                
+              </div>
+              <div class="lotion-info ">
+                <p>$150.65</p>
+                <h5>Lotion Shower gel</h5>
+                <span>
+                  <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                    class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+                </span>
+              </div>
+            </div>
+    
+          </div>
+          <div class="arrows">
+            <div class="left-arrow" id="product-slider-left"><i class="fa-solid fa-angle-left"></i></div>
+            <div class="right-arrow" id="product-slider-right"><i class="fa-solid fa-angle-right"></i></div>
+          </div>
+        </div>
+      </section>
+      <section id="about-footer">
+        <div class="container">
+            <div class="row " style="margin-bottom: 80px;">
+                <div class="col-6 footer-info1 ">
+                    <h2>Subscribe to Our Newsletter!</h2>
+                    <p>Authoritatively morph 24/7 potentialities with error-free partnerships. Objectively engineer
+                        multimedia.</p>
+                </div>
+                <div class="col-6 footer-search-box">
+                    <input type="search" placeholder="Enter your Email......"><button>Search</button>
+                </div>
+            </div>
+            <hr style="opacity: 0.10000000149011612; background: #151A32;">
+    
+    
+            <div class="fotter-2nd-part">
+                <div class="row " style="margin-top: 50px;">
+                    <div class="col-12 col-md-12 col-sm-12 col-lg-3 logo-part">
+                        <img src="./images&others/MainLogo.png" alt="">
+                        <p>Progressively optimize effective ideas before turnkey process improvements. Proactively
+                            disseminate</p>
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"> <i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"> <i class="fa-brands fa-pinterest-p"></i></a></li>
+    
+                        </ul>
+                    </div>
+                    <div class="col-6  col-md-6 col-sm-6 col-lg-2 my-account">
+                        <h2>Account</h2>
+                        <ul>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> My Account </a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> View Cart </a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Wishlist </a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Compare</a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> New Products</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-6 col-sm-6 col-lg-2 my-account">
+                        <h2>support</h2>
+                        <ul>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Help</a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Contact Us </a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Feedback </a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Customer Service</a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Store Locations</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-6 col-sm-6 col-lg-2 my-account">
+                        <h2>Shop</h2>
+                        <ul>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Men’s Shopping</a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Women’s Shopping</a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Kids’ Shopping</a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Discounts</a></li>
+                            <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> New Arrivels</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-6 col-sm-6 col-lg-3 contact">
+                        <h2>Contact Us</h2>
+                        <div class="row location">
+                            <div class="col-2">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="col-10">
+                                <p>
+                                        2751 S Parker Rd, Aurora, CO 80014,
+                                        United States
+                                </p>
+                            </div>
+                        </div>
+                        <a href="tel:18008660286"> <span style="margin-right: 25px;"><i
+                                    class="fa-solid fa-phone"></i></span>+18008660286</a> <br>
+                        <div class="row location">
+                            <div class="col-2">
+                                <a href="mailto:aetor.info@gmail.com"><i class="fa-solid fa-envelope"></i> </a>
+                            </div>
+                            <div class="col-10">
+                                <a href="mailto:aetor.info@gmail.com"> aetor.info@gmail.com</a>
+                                <a href="mailto:aetor.info@gmail.com">info@aetor.com</a>
+                            </div>
+                        </div>
+                        <!-- <a href="mail:aetor.info@gmail.com">  <span><i class="fa-solid fa-envelope"></i> </span></a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+
+
+
+
+     <!-- js link start  -->
+     <script src="./js/code.jquery.com_jquery-3.7.0.min.js"></script>
+     <script src="./js/code.iconify.design_iconify-icon_1.0.7_iconify-icon.min.js"></script>
+     <script src="./js/tingle.min.js"></script>
+     <script src="./js/venobox.min.js"></script>
+     <script src="./js/aos.js"></script>
+     <script src="./js/slick.min.js"></script>
+     <script src="https://kit.fontawesome.com/4b8f754f30.js" crossorigin="anonymous"></script>
+     <script src="./js/bootstrap.bundle.min.js"></script>
+     <script src="./js/jquery.countdown.min.js"></script>
+     <script src="./js/aytor.js"></script>
+     <!-- js link end  -->
+</body>
+</html>

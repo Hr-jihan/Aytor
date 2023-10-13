@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- css link start -->
+  <link rel="stylesheet" href="./css/aos.css">
+  <link rel="stylesheet" href="./css/venobox.min.css">
+  <link rel="stylesheet" href="./css/tingle.min.css">
+  <link rel="stylesheet" href="./css/slick.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/aytor.min.css">
+  <link rel="stylesheet" href="./css/responsive.min.css">
+  <!-- css link end -->
+  <title>Aytor</title>
+</head>
+
+<body>
+  <!-- nav starts here  -->
+  <nav class="navbar navbar-expand-lg d-none d-lg-block ">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="./images&others/MainLogo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0 menulist">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Shopes
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./shop-details.html" style="color:#FF6F61;">Shop - Details Style One</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Shop-Grid</a></li>
+              <li><a class="dropdown-item" href="#">Shop-Details</a></li>
+              <li><a class="dropdown-item" href="#">Compare</a></li>
+              <li><a class="dropdown-item" href="#">Cart</a></li>
+              <li><a class="dropdown-item" href="#">Checkout</a></li>
+              <li><a class="dropdown-item" href="#">Wishlist</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./about.html" style="color:#FF6F61;">About Us</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Features
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Blogs
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./blog.html" style="color:#FF6F61;">Blogs</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Blog - Classic</a></li>
+              <li><a class="dropdown-item" href="#">Blog - Classic With Sidebar</a></li>
+              <li><a class="dropdown-item" href="#">Blog - Details</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+        <div class="navicons">
+          <ul>
+            <li> <span><iconify-icon class="search-icon" icon="iconamoon:search-thin"></iconify-icon></span></li>
+            <li><a href="#"><iconify-icon icon="clarity:avatar-line"></iconify-icon></a></li>
+            <li><a href="#"><iconify-icon icon="ph:heart-light"></iconify-icon></a></li>
+            <li><a href="#"><iconify-icon icon="teenyicons:bag-outline"></iconify-icon> <span>0</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- sm nav starts  -->
+  <nav class="navbar navbar-sm d-lg-none">
+    <div class="container">
+      <div class="row w-100 align-items-center">
+        <div class="col-3 ">
+
+          <button class="sm-nav-menu-icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+            aria-controls="navbarSupportedContent">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+        <div class="col-6 text-center"> <img src="./images&others/MainLogo.png" alt=""></div>
+        <div class="col-3 text-end">
+          <div class="navicons">
+            <ul>
+              <li><a href="#"><iconify-icon icon="teenyicons:bag-outline"></iconify-icon> <span>0</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </nav>
+  <!-- offcanvas slide  -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <img src="./images&others/MainLogo.png" alt="">
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="sm-search">
+      <div class="container">
+
+        <div class="row height d-flex justify-content-center align-items-center">
+
+          <div class="">
+
+            <div class="form">
+              <i class="fa fa-search"></i>
+              <input type="text" class="form-control form-input" placeholder="Search anything...">
+              <span class="left-pan"><i class="fa fa-microphone"></i></span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="offcanvas-body">
+
+
+      <ul class="sm-nav-list">
+        <li><a href="#">Home</a></li>
+        <li>
+          <a href="#" class=" dropdown-toggle" data-bs-toggle="dropdown"> Shop</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./shop-details.html" style="color:#FF6F61;">Shop - Details Style One</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Shop-Grid</a></li>
+              <li><a class="dropdown-item" href="#">Shop-Details</a></li>
+              <li><a class="dropdown-item" href="#">Compare</a></li>
+              <li><a class="dropdown-item" href="#">Cart</a></li>
+              <li><a class="dropdown-item" href="#">Checkout</a></li>
+              <li><a class="dropdown-item" href="#">Wishlist</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class=" dropdown-toggle" data-bs-toggle="dropdown"> Pages</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./about.html" style="color:#FF6F61;">About Us</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class=" dropdown-toggle" data-bs-toggle="dropdown"> Features</a>
+        </li>
+        <li>
+          <a href="#" class=" dropdown-toggle" data-bs-toggle="dropdown"> blogs</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./blog.html" style="color:#FF6F61;">Blogs</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Blog - Classic</a></li>
+              <li><a class="dropdown-item" href="#">Blog - Classic With Sidebar</a></li>
+              <li><a class="dropdown-item" href="#">Blog - Details</a></li>
+          </ul>
+        </li>
+        <li><a class="nav-link" href="./contact.html">Contact</a></li>
+
+
+
+      </ul>
+
+    </div>
+  </div>
+  <!-- nav ends here  -->
+  <!-- Home page starts here  -->
+  <!-- banner starts -->
+  <section id="banner">
+    <div class="banner-slide" style="background-image: url(./images&others/home-Banner-img1.png);">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="banner-cnt col-7">
+            <h5>Mega Sale</h5>
+            <h2>Up To 35% Off</h2>
+            <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+            <a href="#"> Shop Now <span><i class="fa-solid fa-arrow-right-long"></i><span></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="banner-slide" style="background-image: url(./images&others/home-banner-img2.jpg);">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="banner-cnt col-7 ">
+            <h5>Mega Sale</h5>
+            <h2>Up To 35% Off</h2>
+            <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+            <a href="#"> Shop Now <span><i class="fa-solid fa-arrow-right-long"></i><span></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="banner-slide" style="background-image: url(./images&others/home-banner-img3.jpg);">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="banner-cnt col-7 ">
+            <h5>Mega Sale</h5>
+            <h2>Up To 35% Off</h2>
+            <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+            <a href="#"> Shop Now <span><i class="fa-solid fa-arrow-right-long"></i><span></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="banner-slide" style="background-image: url(./images&others/home-banner-img4.jpg);">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="banner-cnt col-7 ">
+            <h5>Mega Sale</h5>
+            <h2>Up To 35% Off</h2>
+            <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+            <a href="#"> Shop Now <span><i class="fa-solid fa-arrow-right-long"></i><span></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- Product Section  -->
+  <section id="product">
+    <div class="container">
+
+      <div class="row w-100 ">
+        <div class="beauty-perfume col-5">
+          <div class="beauty">
+            <img class=" w-100" src="./images&others/bueaty-product.png" alt="">
+            <div class="beauty-overlay">
+              <h4>Beauty Cream</h4>
+              <a href="#"> Shop Now <span><i class="fa-solid fa-arrow-right-long"></i><span></a>
+            </div>
+          </div>
+          <div class="perfume ">
+            <img class="w-100" src="./images&others/perfume.png" alt="">
+            <div class="perfume-overlay">
+              <h4>Perfume</h4>
+              <a href="#"> Shop Now <span><i class="fa-solid fa-arrow-right-long"></i><span></a>
+            </div>
+          </div>
+        </div>
+        <div class="soap col-7 p-0 ">
+          <img class="w-100 ms-auto" src="./images&others/soap.png" alt="">
+          <div class="soap-overlay">
+            <h4>Soap</h4>
+            <a href="#"> Shop Now <span><i class="fa-solid fa-arrow-right-long"></i><span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- new product section  -->
+  <section id="new-product">
+    <div class="container position-relative">
+      <h2 class="arrival-head">New Arrivals Products</h2>
+      <div class="new-product-slider w-100">
+        <div class="lotion">
+          <div class="lotion-img">
+            <img class="w-100" src="./images&others/lotion.png" alt="">
+            <div class="sale">
+              <span>-45%</span>
+            </div>
+            <div class="hvr-icon">
+              <ul>
+                <li><a style="--num:0;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"
+                    href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a style="--num:1;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Give love"
+                    href="#"><i class="fa-solid fa-heart"></i></a></li>
+                <li><a style="--num:2;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Watch product"
+                    href="#"><i class="fa-solid fa-eye"></i></a></li>
+                <li><a style="--num:3;" data-bs-toggle="tooltip" data-bs-placement="left"
+                    data-bs-title="Connect with us" href="#"><i class="fa-solid fa-signal"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="lotion-info ">
+            <p>$150.65</p>
+            <h5>Lotion Shower gel</h5>
+            <span>
+              <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+            </span>
+          </div>
+        </div>
+        <div class="lotion">
+          <div class="lotion-img">
+            <img class="w-100" src="./images&others/cream.png" alt="">
+            <div class="sale">
+              <span>-45%</span>
+            </div>
+            <div class="hvr-icon">
+              <ul>
+                <li><a style="--num:0;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"
+                    href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a style="--num:1;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Give love"
+                    href="#"><i class="fa-solid fa-heart"></i></a></li>
+                <li><a style="--num:2;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Watch product"
+                    href="#"><i class="fa-solid fa-eye"></i></a></li>
+                <li><a style="--num:3;" data-bs-toggle="tooltip" data-bs-placement="left"
+                    data-bs-title="Connect with us" href="#"><i class="fa-solid fa-signal"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="lotion-info ">
+            <p>$150.65</p>
+            <h5>Lotion Shower gel</h5>
+            <span>
+              <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+            </span>
+          </div>
+        </div>
+        <div class="lotion">
+          <div class="lotion-img">
+            <img class="w-100" src="./images&others/gel.png" alt="">
+            <div class="sale">
+              <span>-45%</span>
+            </div>
+            <div class="hvr-icon">
+              <ul>
+                <li><a style="--num:0;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"
+                    href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a style="--num:1;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Give love"
+                    href="#"><i class="fa-solid fa-heart"></i></a></li>
+                <li><a style="--num:2;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Watch product"
+                    href="#"><i class="fa-solid fa-eye"></i></a></li>
+                <li><a style="--num:3;" data-bs-toggle="tooltip" data-bs-placement="left"
+                    data-bs-title="Connect with us" href="#"><i class="fa-solid fa-signal"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="lotion-info ">
+            <p>$150.65</p>
+            <h5>Lotion Shower gel</h5>
+            <span>
+              <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+            </span>
+          </div>
+        </div>
+        <div class="lotion">
+          <div class="lotion-img">
+            <img class="w-100" src="./images&others/powder.png" alt="">
+            <div class="sale">
+              <span>-45%</span>
+            </div>
+            <div class="hvr-icon">
+              <ul>
+                <li><a style="--num:0;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"
+                    href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a style="--num:1;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Give love"
+                    href="#"><i class="fa-solid fa-heart"></i></a></li>
+                <li><a style="--num:2;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Watch product"
+                    href="#"><i class="fa-solid fa-eye"></i></a></li>
+                <li><a style="--num:3;" data-bs-toggle="tooltip" data-bs-placement="left"
+                    data-bs-title="Connect with us" href="#"><i class="fa-solid fa-signal"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="lotion-info ">
+            <p>$150.65</p>
+            <h5>Lotion Shower gel</h5>
+            <span>
+              <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+            </span>
+          </div>
+        </div>
+        <div class="lotion">
+          <div class="lotion-img">
+            <img class="w-100" src="./images&others/lotion.png" alt="">
+            <div class="sale">
+              <span>-45%</span>
+            </div>
+            <div class="hvr-icon">
+              <ul>
+                <li><a style="--num:0;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"
+                    href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a style="--num:1;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Give love"
+                    href="#"><i class="fa-solid fa-heart"></i></a></li>
+                <li><a style="--num:2;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Watch product"
+                    href="#"><i class="fa-solid fa-eye"></i></a></li>
+                <li><a style="--num:3;" data-bs-toggle="tooltip" data-bs-placement="left"
+                    data-bs-title="Connect with us" href="#"><i class="fa-solid fa-signal"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="lotion-info ">
+            <p>$150.65</p>
+            <h5>Lotion Shower gel</h5>
+            <span>
+              <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+            </span>
+          </div>
+        </div>
+        <div class="lotion">
+          <div class="lotion-img">
+            <img class="w-100" src="./images&others/cream.png" alt="">
+            <div class="sale">
+              <span>-45%</span>
+            </div>
+            <div class="hvr-icon">
+              <ul>
+                <li><a style="--num:0;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"
+                    href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a style="--num:1;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Give love"
+                    href="#"><i class="fa-solid fa-heart"></i></a></li>
+                <li><a style="--num:2;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Watch product"
+                    href="#"><i class="fa-solid fa-eye"></i></a></li>
+                <li><a style="--num:3;" data-bs-toggle="tooltip" data-bs-placement="left"
+                    data-bs-title="Connect with us" href="#"><i class="fa-solid fa-signal"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="lotion-info ">
+            <p>$150.65</p>
+            <h5>Lotion Shower gel</h5>
+            <span>
+              <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+            </span>
+          </div>
+        </div>
+
+      </div>
+      <div class="arrows">
+        <div class="left-arrow" id="product-slider-left"><i class="fa-solid fa-angle-left"></i></div>
+        <div class="right-arrow" id="product-slider-right"><i class="fa-solid fa-angle-right"></i></div>
+      </div>
+    </div>
+  </section>
+  <!-- get-discount section  -->
+  <section id="get-discount">
+    <div class="discount-banner" style="background-image: url(./images&others/Discount.png);">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center ">
+          <div class="discount-info col-lg-6 col-sm-8">
+            <h2>Get Up To 35% Off all Bestzzzzzzz Spa Cosmetics Cream</h2>
+            <p>Holisticly maximize interoperable action items for effective e-business. Globally impact enterprise-wide
+              niche markets through dynamic.</p>
+            <a href="#"> Shop Now <span><i class="fa-solid fa-arrow-right-long"></i><span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- best sellar product section  -->
+  <secion id="best-sellar-product">
+    <div class="container">
+      <h2 >Best Seller Products</h2>
+      <div class="row mb-1">
+        <div class="lotion col-lg-3 col-sm-6">
+          <div class="lotion-img">
+            <img class="w-100" src="./images&others/product-1.jpg" alt="">
+            <div class="sale">
+              <span>-45%</span>
+            </div>
+            <div class="hvr-icon">
+              <ul>
+                <li><a style="--num:0;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"
+                    href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a style="--num:1;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Give love"
+                    href="#"><i class="fa-solid fa-heart"></i></a></li>
+                <li><a style="--num:2;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Watch product"
+                    href="#"><i class="fa-solid fa-eye"></i></a></li>
+                <li><a style="--num:3;" data-bs-toggle="tooltip" data-bs-placement="left"
+                    data-bs-title="Connect with us" href="#"><i class="fa-solid fa-signal"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="lotion-info ">
+            <p>$150.65</p>
+            <h5>Lotion Shower gel</h5>
+            <span>
+              <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+            </span>
+          </div>
+        </div>
+        <div class="lotion col-lg-3 col-sm-6">
+          <div class="lotion-img">
+            <img class="w-100" src="./images&others/product-2.jpg" alt="">
+            <div class="sale">
+              <span>-45%</span>
+            </div>
+            <div class="hvr-icon">
+              <ul>
+                <li><a style="--num:0;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"
+                    href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a style="--num:1;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Give love"
+                    href="#"><i class="fa-solid fa-heart"></i></a></li>
+                <li><a style="--num:2;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Watch product"
+                    href="#"><i class="fa-solid fa-eye"></i></a></li>
+                <li><a style="--num:3;" data-bs-toggle="tooltip" data-bs-placement="left"
+                    data-bs-title="Connect with us" href="#"><i class="fa-solid fa-signal"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="lotion-info ">
+            <p>$150.65</p>
+            <h5>Lotion Shower gel</h5>
+            <span>
+              <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+            </span>
+          </div>
+        </div>
+        <div class="lotion col-lg-3 col-sm-6 d-none d-lg-block d-md-block">
+          <div class="lotion-img">
+            <img class="w-100" src="./images&others/product-3.jpg" alt="">
+            <div class="sale">
+              <span>-45%</span>
+            </div>
+            <div class="hvr-icon">
+              <ul>
+                <li><a style="--num:0;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"
+                    href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a style="--num:1;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Give love"
+                    href="#"><i class="fa-solid fa-heart"></i></a></li>
+                <li><a style="--num:2;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Watch product"
+                    href="#"><i class="fa-solid fa-eye"></i></a></li>
+                <li><a style="--num:3;" data-bs-toggle="tooltip" data-bs-placement="left"
+                    data-bs-title="Connect with us" href="#"><i class="fa-solid fa-signal"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="lotion-info ">
+            <p>$150.65</p>
+            <h5>Lotion Shower gel</h5>
+            <span>
+              <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+            </span>
+          </div>
+        </div>
+        <div class="lotion col-lg-3 col-sm-6 d-none d-lg-block d-md-block">
+          <div class="lotion-img">
+            <img class="w-100" src="./images&others/product-4.jpg" alt="">
+            <div class="sale">
+              <span>-45%</span>
+            </div>
+            <div class="hvr-icon">
+              <ul>
+                <li><a style="--num:0;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"
+                    href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a style="--num:1;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Give love"
+                    href="#"><i class="fa-solid fa-heart"></i></a></li>
+                <li><a style="--num:2;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Watch product"
+                    href="#"><i class="fa-solid fa-eye"></i></a></li>
+                <li><a style="--num:3;" data-bs-toggle="tooltip" data-bs-placement="left"
+                    data-bs-title="Connect with us" href="#"><i class="fa-solid fa-signal"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="lotion-info ">
+            <p>$150.65</p>
+            <h5>Lotion Shower gel</h5>
+            <span>
+              <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="lotion col-lg-3 col-sm-6 d-none d-lg-block d-md-block">
+          <div class="lotion-img">
+            <img class="w-100" src="./images&others/product-5.jpg" alt="">
+            <div class="sale">
+              <span>-45%</span>
+            </div>
+            <div class="hvr-icon">
+              <ul>
+                <li><a style="--num:0;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"
+                    href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a style="--num:1;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Give love"
+                    href="#"><i class="fa-solid fa-heart"></i></a></li>
+                <li><a style="--num:2;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Watch product"
+                    href="#"><i class="fa-solid fa-eye"></i></a></li>
+                <li><a style="--num:3;" data-bs-toggle="tooltip" data-bs-placement="left"
+                    data-bs-title="Connect with us" href="#"><i class="fa-solid fa-signal"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="lotion-info ">
+            <p>$150.65</p>
+            <h5>Lotion Shower gel</h5>
+            <span>
+              <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+            </span>
+          </div>
+        </div>
+        <div class="lotion col-lg-3 col-sm-6 d-none d-lg-block d-md-block">
+          <div class="lotion-img">
+            <img class="w-100" src="./images&others/product-6.jpg" alt="">
+            <div class="sale">
+              <span>-45%</span>
+            </div>
+            <div class="hvr-icon">
+              <ul>
+                <li><a style="--num:0;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"
+                    href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a style="--num:1;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Give love"
+                    href="#"><i class="fa-solid fa-heart"></i></a></li>
+                <li><a style="--num:2;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Watch product"
+                    href="#"><i class="fa-solid fa-eye"></i></a></li>
+                <li><a style="--num:3;" data-bs-toggle="tooltip" data-bs-placement="left"
+                    data-bs-title="Connect with us" href="#"><i class="fa-solid fa-signal"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="lotion-info ">
+            <p>$150.65</p>
+            <h5>Lotion Shower gel</h5>
+            <span>
+              <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+            </span>
+          </div>
+        </div>
+        <div class="lotion col-lg-3 col-sm-6 d-none d-lg-block d-md-block ">
+          <div class="lotion-img">
+            <img class="w-100" src="./images&others/product-6.jpg" alt="">
+            <div class="sale">
+              <span>-45%</span>
+            </div>
+            <div class="hvr-icon">
+              <ul>
+                <li><a style="--num:0;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"
+                    href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a style="--num:1;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Give love"
+                    href="#"><i class="fa-solid fa-heart"></i></a></li>
+                <li><a style="--num:2;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Watch product"
+                    href="#"><i class="fa-solid fa-eye"></i></a></li>
+                <li><a style="--num:3;" data-bs-toggle="tooltip" data-bs-placement="left"
+                    data-bs-title="Connect with us" href="#"><i class="fa-solid fa-signal"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="lotion-info ">
+            <p>$150.65</p>
+            <h5>Lotion Shower gel</h5>
+            <span>
+              <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+            </span>
+          </div>
+        </div>
+        <div class="lotion col-lg-3 col-sm-6 d-none d-lg-block d-md-block">
+          <div class="lotion-img">
+            <img class="w-100" src="./images&others/product-8.jpg" alt="">
+            <div class="sale">
+              <span>-45%</span>
+            </div>
+            <div class="hvr-icon">
+              <ul>
+                <li><a style="--num:0;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to cart"
+                    href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a style="--num:1;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Give love"
+                    href="#"><i class="fa-solid fa-heart"></i></a></li>
+                <li><a style="--num:2;" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Watch product"
+                    href="#"><i class="fa-solid fa-eye"></i></a></li>
+                <li><a style="--num:3;" data-bs-toggle="tooltip" data-bs-placement="left"
+                    data-bs-title="Connect with us" href="#"><i class="fa-solid fa-signal"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="lotion-info ">
+            <p>$150.65</p>
+            <h5>Lotion Shower gel</h5>
+            <span>
+              <i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="bext-btn"><a href="#">See All Products <span><i class="fa-solid fa-arrow-right-long"></i><span></a>
+      </div>
+    </div>
+  </secion>
+  <!-- deal of day section -->
+  <section id="deal-of-day">
+
+    <div class="container">
+
+
+      <h2 class="deal-head">Deals Of The Day</h2>
+      <div class="counter">
+        <ul>
+          <li>
+            <h4 class="days">27</h4>
+            <p>Days</p>
+          </li>
+          <li>
+            <h4 class="hours">16</h4>
+            <p>Hour</p>
+          </li>
+          <li>
+            <h4 class="min">13</h4>
+            <p>Minute</p>
+          </li>
+          <li>
+            <h4 class="sec">30</h4>
+            <p>Sec</p>
+          </li>
+        </ul>
+      </div>
+      <div class="row align-items-center deal">
+        <div class="deal-box col-6">
+          <h5>Fairness Cream</h5>
+          <h2>Get Up To 35% Off</h2>
+          <p>Competently target best-of-breed value without transparent e-commerce. Dramatically procrastin ate fully
+            tested relationships.</p>
+          <h5>$256.35</h5>
+          <a href="#"> Shop Now <span><i class="fa-solid fa-arrow-right-long"></i><span></a>
+        </div>
+        <div class="deal-box col-6">
+          <h5>Fairness Cream</h5>
+          <h2>Get Up To 35% Off</h2>
+          <p>Competently target best-of-breed value without transparent e-commerce. Dramatically procrastin ate fully
+            tested relationships.</p>
+          <h5>$256.35</h5>
+          <a href="#"> Shop Now <span><i class="fa-solid fa-arrow-right-long"></i><span></a>
+        </div>
+        <div class="deal-box col-6">
+          <h5>Fairness Cream</h5>
+          <h2>Get Up To 35% Off</h2>
+          <p>Competently target best-of-breed value without transparent e-commerce. Dramatically procrastin ate fully
+            tested relationships.</p>
+          <h5>$256.35</h5>
+          <a href="#"> Shop Now <span><i class="fa-solid fa-arrow-right-long"></i><span></a>
+        </div>
+
+
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- special offers section  -->
+  <section id="special-offers">
+    <div class="container h-100">
+      <div class="row align-items-center h-100">
+        <div class="special-offers-info col-lg-5">
+          <h5>SPECIAL OFFER</h5>
+          <h2>Beauty Inspired by Real
+            Shine In Life </h2>
+          <p>Completely grow maintainable niches via tactical services. Progressively synthesize market positioning
+            paradigms for functional architectures. Professionally aggregate.</p>
+          <a href="#"> Explore More <span><i class="fa-solid fa-arrow-right-long"></i><span></a>
+        </div>
+        <div class="special-offers-img col-lg-7">
+          <div class="video-part">
+            <img src="./images&others/special-offers-img.png" alt="">
+            <div class="video-btn">
+              <a class="iframe-video" data-vbtype="iframe" href="https://youtu.be/N26Btv6kQRw"><span><i
+                    class="fa-solid fa-play"></i></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- latest news section  -->
+  <section id="latest-news">
+    <div class="container">
+      <h2 class="news-head">Latest News</h2>
+      <div class="row mb-1">
+        <div class="news col-lg-3 col-sm-6">
+          <div class="news-img">
+            <img class="w-100" src="./images&others/latest-news.png" alt="">
+          </div>
+          <div class="news-info ">
+            <h5>Best multi-step Beauty skin.</h5>
+            <p>Appropriately seize 24/365 markets without adaptive.</p>
+            <div class="row ">
+              <a class="col-7" href="#"> Explore More <span><i class="fa-solid fa-arrow-right-long"></i><span></a>
+              <a class="col-5 " href="#">Jan 04, 2022</a>
+            </div>
+          </div>
+        </div>
+        <div class="news col-lg-3 col-sm-6">
+          <div class="news-img">
+            <img class="w-100" src="./images&others/latest-news.png" alt="">
+          </div>
+          <div class="news-info ">
+            <h5>Best multi-step Beauty skin.</h5>
+            <p>Appropriately seize 24/365 markets without adaptive.</p>
+            <div class="row ">
+              <a class="col-7" href="#"> Explore More <span><i class="fa-solid fa-arrow-right-long"></i><span></a>
+              <a class="col-5 " href="#">Jan 04, 2022</a>
+            </div>
+          </div>
+        </div>
+        <div class="news col-lg-3 col-sm-6">
+          <div class="news-img">
+            <img class="w-100" src="./images&others/latest-news.png" alt="">
+          </div>
+          <div class="news-info ">
+            <h5>Best multi-step Beauty skin.</h5>
+            <p>Appropriately seize 24/365 markets without adaptive.</p>
+            <div class="row ">
+              <a class="col-7" href="#"> Explore More <span><i class="fa-solid fa-arrow-right-long"></i><span></a>
+              <a class="col-5 " href="#">Jan 04, 2022</a>
+            </div>
+          </div>
+        </div>
+        <div class="news col-lg-3 col-sm-6">
+          <div class="news-img">
+            <img class="w-100" src="./images&others/latest-news.png" alt="">
+          </div>
+          <div class="news-info ">
+            <h5>Best multi-step Beauty skin.</h5>
+            <p>Appropriately seize 24/365 markets without adaptive.</p>
+            <div class="row ">
+              <a class="col-7" href="#"> Explore More <span><i class="fa-solid fa-arrow-right-long"></i><span></a>
+              <a class="col-5 " href="#">Jan 04, 2022</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section> 
+  <!-- footer section  -->
+  <section id="footer">
+    <div class="container">
+      <div class="top-head d-lg-block d-none">
+        <div class="row" style="background-color: #fff;">
+          <div class="col-lg-3 col-md-6 logo-info">
+            <div class="row">
+              <div class="col-4 feature-logo">
+                <a href="#"><i class="fa-solid fa-truck"></i></a>
+              </div>
+              <div class="col-8 feature-info">
+                <h5>FREE SHIPING</h5>
+                <p>On all orders over <span> $99.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 logo-info">
+            <div class="row">
+              <div class="col-4 feature-logo">
+                <a href="#"><i class="fa-solid fa-truck"></i></a>
+              </div>
+              <div class="col-8 feature-info">
+                <h5>FREE SHIPING</h5>
+                <p>On all orders over <span> $99.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 logo-info">
+            <div class="row">
+              <div class="col-4 feature-logo">
+                <a href="#"><i class="fa-solid fa-truck"></i></a>
+              </div>
+              <div class="col-8 feature-info">
+                <h5>FREE SHIPING</h5>
+                <p>On all orders over <span> $99.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 logo-info" style="border: none;">
+            <div class="row">
+              <div class="col-4 feature-logo">
+                <a href="#"><i class="fa-solid fa-truck"></i></a>
+              </div>
+              <div class="col-8 feature-info">
+                <h5>FREE SHIPING</h5>
+                <p>On all orders over <span> $99.</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mead-head">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+          <ul>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-pinterest"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-12 mainlogo">
+          <img src="./images&others/white logo.png" alt="">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-12 dcard">
+          <img  src="./images&others/d-card.png" alt="">
+        </div>
+      </div>
+      <hr style="color: rgb(54, 51, 51);">
+      <div class="fotter-2nd-part ">
+        <div class="row  footer-options" style="margin-top: 50px;">
+            <div class="col-lg-3 col-md-12 col-sm-12 col-6 logo-part">
+                <img src="./images&others/white logo.png" alt="">
+                <p>Progressively optimize effective ideas before turnkey process improvements. Proactively
+                    disseminate</p>
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"> <i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"> <i class="fa-brands fa-pinterest-p"></i></a></li>
+
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-7 col-sm-7 col-6 my-account">
+                <h2>Account</h2>
+                <ul>
+                    <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> My Account </a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> View Cart </a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Wishlist </a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Compare</a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> New Products</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-5 col-sm-5 my-account">
+                <h2>support</h2>
+                <ul>
+                    <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Help</a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Contact Us </a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Feedback </a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Customer Service</a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Store Locations</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-7 col-sm-7 my-account">
+                <h2>Shop</h2>
+                <ul>
+                    <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Men’s Shopping</a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Women’s Shopping</a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Kids’ Shopping</a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Discounts</a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> New Arrivels</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-5 col-sm-5 col-6 contact">
+                <h2>Contact Us</h2>
+                <div class="row location">
+                    <div class="col-2">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="col-10">
+                        <p>
+                                2751 S Parker Rd, Aurora, CO 80014,
+                                United States
+                        </p>
+                    </div>
+                </div>
+                <a href="tel:18008660286"> <span style="margin-right: 25px;"><i
+                            class="fa-solid fa-phone"></i></span>+18008660286</a> <br>
+                <div class="row location">
+                    <div class="col-2">
+                        <a href="mailto:aetor.info@gmail.com"><i class="fa-solid fa-envelope"></i> </a>
+                    </div>
+                    <div class="col-10">
+                        <a href="mailto:aetor.info@gmail.com"> aetor.info@gmail.com</a>
+                        <a href="mailto:aetor.info@gmail.com">info@aetor.com</a>
+                    </div>
+                </div>
+                <!-- <a href="mail:aetor.info@gmail.com">  <span><i class="fa-solid fa-envelope"></i> </span></a> -->
+            </div>
+        </div>
+      </div>
+
+      <!-- footer for sm device -->
+
+
+      <!-- <div class="footer-tab d-lg-none">
+        <ul class="nav nav-pills mb-3 w-100  footer-tab-items" id="pills-tab" role="tablist">
+            <li class="nav-item tab-option" role="presentation">
+              <button class="nav-link active " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-aytor" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Aytor</button>
+            </li>
+            
+            <li class="nav-item  tab-option" role="presentation">
+              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-account" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Account</button>
+            </li>
+            <li class="nav-item  tab-option" role="presentation">
+              <button class="nav-link " id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-support" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Support</button>
+            </li>
+            <li class="nav-item  tab-option" role="presentation">
+              <button class="nav-link additional-info" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-shop" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Shop</button>
+            </li>
+            <li class="nav-item  tab-option" role="presentation">
+              <button class="nav-link additional-info" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+            </li>
+        </ul>
+        <div class="tab-content tab-contant-area" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-aytor" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                    <img src="./images&others/white logo.png" alt="">
+                    <p>Progressively optimize effective ideas before turnkey process improvements. Proactively
+                        disseminate</p>
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"> <i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"> <i class="fa-brands fa-pinterest-p"></i></a></li>
+
+                    </ul>
+            </div>
+            <div class="tab-pane fade" id="pills-account" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                <ul>
+                    <li><a href="#"> My Account <span><i class="fa-solid fa-angle-right"></i></span></a></li>
+                    <li><a href="#"> View Cart <span><i class="fa-solid fa-angle-right"></i></span></a></li>
+                    <li><a href="#"> Wish list <span><i class="fa-solid fa-angle-right"></i></span> </a></li>
+                    <li><a href="#"> Compare <span><i class="fa-solid fa-angle-right"></i></span></a></li>
+                    <li><a href="#"> N Products <span><i class="fa-solid fa-angle-right"></i></span></a></li>
+                </ul> 
+            </div>
+            <div class="tab-pane fade" id="pills-support" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+               <ul>
+                    <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Help</a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Contact Us </a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Feedback </a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Service</a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Locations</a></li>
+                </ul> 
+            </div>
+            <div class="tab-pane fade" id="pills-shop" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                <ul>
+                    <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> M Shopping</a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> F Shopping</a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Kids’ Shopping</a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> Discounts</a></li>
+                    <li><a href="#"><span><i class="fa-solid fa-angle-right"></i></span> New Arrivels</a></li>
+                </ul>
+            </div>
+            <div class="tab-pane fade " id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                <div class=" location col-4  ">
+                    <div class="location-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="location-name">
+                        <p>
+                                2751 S Parker Rd, Aurora, CO 80014,
+                                United States
+                        </p>
+                    </div>
+                </div>
+                <div class="mobile-number col-4  ">
+                    <span><i class="fa-solid fa-phone"></i></span> <br>
+                    <a href="tel:18008660286"> +18008660286</a>
+                </div>
+                 <br>
+                <div class="email-ac col-4 ">
+                    
+                        <a href="mailto:aetor.info@gmail.com"><i class="fa-solid fa-envelope"></i> </a> <br>
+                   
+                        <a href="mailto:aetor.info@gmail.com"> aetor.info@gmail.com</a> <br>
+                        <a href="mailto:aetor.info@gmail.com">info@aetor.com</a>
+                </div>
+            </div>
+          </div>
+      </div> -->
+    </div>
+  </section>
+
+
+
+  <!-- Home page ends here  -->
+
+
+
+
+
+
+
+
+
+  <!-- js link start  -->
+
+  <script src="./js/code.jquery.com_jquery-3.7.0.min.js"></script>
+  <script src="./js/code.iconify.design_iconify-icon_1.0.7_iconify-icon.min.js"></script>
+  <script src="./js/tingle.min.js"></script>
+  <script src="./js/venobox.min.js"></script>
+  <script src="./js/aos.js"></script>
+  <script src="./js/slick.min.js"></script>
+  <script src="https://kit.fontawesome.com/4b8f754f30.js" crossorigin="anonymous"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/jquery.countdown.min.js"></script>
+  <script src="./js/aytor.js"></script>
+  <!-- js link end  -->
+</body>
+
+</html>
